@@ -1,0 +1,7 @@
+{
+  "localization": "ro",
+  "name": "Tether",
+  "symbol": "USDT.pica",
+  "description": "Tether, eliberat nativ pe Solana.",
+  "coingeckoID": "tether"
+}

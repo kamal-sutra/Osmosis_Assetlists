@@ -1145,8 +1145,8 @@
     },
     {
       "chain_name": "scorum",
-      "rpc": "https://scorum-blockchain-mainnet-rpc-1.scorum.com",
-      "rest": "https://scorum-blockchain-mainnet-api-1.scorum.com",
+      "rpc": "https://scorum-blockchain-mainnet-rpc.scorum.com",
+      "rest": "https://scorum-blockchain-mainnet-api.scorum.com",
       "explorer_tx_url": "https://ezstaking.app/scorum/txs/${txHash}",
       "keplr_features": [
         "ibc-transfer"
@@ -1211,7 +1211,7 @@
       "chain_name": "dhealth",
       "rpc": "https://rpc.dhealth.com",
       "rest": "https://lcd.dhealth.com",
-      "explorer_tx_url": "https://explorer.dhealth.com/dhealth/transactions/${txHash}",
+      "explorer_tx_url": "https://explorer.nodestake.org/dhealth/tx/${txHash}",
       "keplr_features": [
         "ibc-transfer",
         "ibc-go",
@@ -1260,6 +1260,18 @@
       "keplr_features": [
         "ibc-go",
         "ibc-transfer"
+      ]
+    },
+    {
+      "chain_name": "seda",
+      "rpc": "https://rpc.mainnet.seda.xyz",
+      "rest": "https://lcd.mainnet.seda.xyz",
+      "explorer_tx_url": "https://explorer.seda.xyz/txs/${txHash}",
+      "keplr_features": [
+        "ibc-go",
+        "ibc-transfer",
+        "cosmwasm",
+        "wasmd_0.24+"
       ]
     }
   ]

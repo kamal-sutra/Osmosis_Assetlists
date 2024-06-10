@@ -2,6 +2,23 @@
   "$schema": "./upcoming.schema.json",
   "upcomingAssets": [
     {
+      "assetName": "Penumbra",
+      "symbol": "UM",
+      "chainName": "Penumbra",
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/upcoming/images/um.svg"
+        }
+      ],
+      "socials": {
+        "website": "http://penumbra.zone/",
+        "twitter": "https://twitter.com/penumbrazone"
+      },
+      "estimatedLaunchDateUtc": "June 2024",
+      "showLaunchDate": true,
+      "osmosisAirdrop": false
+    },
+    {
       "assetName": "Initia",
       "symbol": "INIT",
       "chainName": "Initia",
@@ -19,17 +36,17 @@
       "osmosisAirdrop": false
     },
     {
-      "assetName": "Avail",
-      "symbol": "AVAIL",
-      "chainName": "Avail",
+      "assetName": "Prysm",
+      "symbol": "PRYSM",
+      "chainName": "Prysm",
       "images": [
         {
-          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/upcoming/images/avail.svg"
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/upcoming/images/prysm.png"
         }
       ],
       "socials": {
-        "website": "https://www.availproject.org/",
-        "twitter": "https://twitter.com/AvailProject"
+        "website": "https://www.prysm.network/",
+        "twitter": "https://twitter.com/PrysmNetwork"
       },
       "estimatedLaunchDateUtc": "Q2 2024",
       "showLaunchDate": true,
@@ -85,6 +102,40 @@
         "twitter": "https://twitter.com/berachain"
       },
       "estimatedLaunchDateUtc": "Q3 2024",
+      "showLaunchDate": true,
+      "osmosisAirdrop": false
+    },
+    {
+      "assetName": "Movement",
+      "symbol": "MOVE",
+      "chainName": "Movement",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/upcoming/images/move.png"
+        }
+      ],
+      "socials": {
+        "website": "https://movementlabs.xyz/",
+        "twitter": "https://x.com/movementlabsxyz"
+      },
+      "estimatedLaunchDateUtc": "Q3 2024",
+      "showLaunchDate": true,
+      "osmosisAirdrop": false
+    },
+    {
+      "assetName": "Mantra",
+      "symbol": "OM",
+      "chainName": "Mantra",
+      "images": [
+        {
+          "svg": "https://raw.githubusercontent.com/osmosis-labs/assetlists/main/upcoming/images/OM-Prim Col.svg"
+        }
+      ],
+      "socials": {
+        "website": "https://www.mantrachain.io/",
+        "twitter": "https://x.com/MANTRA_Chain"
+      },
+      "estimatedLaunchDateUtc": "Q4 2024",
       "showLaunchDate": true,
       "osmosisAirdrop": false
     },

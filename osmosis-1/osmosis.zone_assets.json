@@ -252,7 +252,8 @@
       ],
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "Terra Luna Classic $LUNC"
     },
     {
       "chain_name": "juno",
@@ -286,7 +287,8 @@
           "deposit_url": "https://app.evmos.org/assets",
           "withdraw_url": "https://app.evmos.org/assets"
         }
-      ]
+      ],
+      "_comment": "Evmos $EVMOS"
     },
     {
       "chain_name": "kava",
@@ -502,7 +504,9 @@
       "chain_name": "vidulum",
       "base_denom": "uvdl",
       "path": "transfer/channel-124/uvdl",
-      "osmosis_verified": true
+      "osmosis_verified": true,
+      "osmosis_unstable": true,
+      "_comment": "Vidulum $VDL"
     },
     {
       "chain_name": "desmos",
@@ -596,7 +600,8 @@
       ],
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "Carbon $SWTH"
     },
     {
       "chain_name": "cerberus",
@@ -740,7 +745,8 @@
           "deposit_url": "https://bridge.blockscape.network/?from=gravitybridge&to=osmosis",
           "withdraw_url": "https://bridge.blockscape.network/?from=osmosis&to=gravitybridge"
         }
-      ]
+      ],
+      "_comment": "Wrapped Bitcoin (Gravity Bridge) $WBTC.grv"
     },
     {
       "chain_name": "gravitybridge",
@@ -761,7 +767,8 @@
           "deposit_url": "https://bridge.blockscape.network/?from=gravitybridge&to=osmosis",
           "withdraw_url": "https://bridge.blockscape.network/?from=osmosis&to=gravitybridge"
         }
-      ]
+      ],
+      "_comment": "Ether (Gravity Bridge) $WETH.grv"
     },
     {
       "chain_name": "gravitybridge",
@@ -770,7 +777,7 @@
       "peg_mechanism": "collateralized",
       "osmosis_verified": true,
       "override_properties": {
-        "name": "USD Coin (Gravity Bridge)",
+        "name": "USDC (Gravity Bridge)",
         "symbol": "USDC.grv",
         "logo_URIs": {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.grv.svg"
@@ -786,7 +793,8 @@
       ],
       "categories": [
         "stablecoin"
-      ]
+      ],
+      "_comment": "USDC (Gravity Bridge) $USDC.grv"
     },
     {
       "chain_name": "gravitybridge",
@@ -811,7 +819,8 @@
       ],
       "categories": [
         "stablecoin"
-      ]
+      ],
+      "_comment": "DAI Stablecoin (Gravity Bridge) $DAI.grv"
     },
     {
       "chain_name": "gravitybridge",
@@ -836,7 +845,8 @@
       ],
       "categories": [
         "stablecoin"
-      ]
+      ],
+      "_comment": "Tether USD (Gravity Bridge) $USDT.grv"
     },
     {
       "chain_name": "juno",
@@ -1069,7 +1079,8 @@
       ],
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "Kujira $KUJI"
     },
     {
       "chain_name": "tgrade",
@@ -1089,7 +1100,8 @@
           "deposit_url": "https://app.ech.network/ibc",
           "withdraw_url": "https://app.ech.network/ibc"
         }
-      ]
+      ],
+      "_comment": "Echelon $ECH"
     },
     {
       "chain_name": "odin",
@@ -1334,7 +1346,8 @@
       "categories": [
         "stablecoin",
         "defi"
-      ]
+      ],
+      "_comment": "USK $USK"
     },
     {
       "chain_name": "unification",
@@ -1357,9 +1370,10 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "deposit_url": "https://dash.scrt.network/ibc"
+          "deposit_url": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=alter"
         }
-      ]
+      ],
+      "_comment": "Alter $ALTER"
     },
     {
       "chain_name": "secretnetwork",
@@ -1370,25 +1384,21 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "deposit_url": "https://dash.scrt.network/ibc"
+          "deposit_url": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=butt"
         }
-      ]
+      ],
+      "_comment": "Button $BUTT"
     },
     {
       "chain_name": "secretnetwork",
       "base_denom": "cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
       "path": "transfer/channel-476/cw20:secret1qfql357amn448duf5gvp9gr48sxx9tsnhupu3d",
       "osmosis_verified": false,
-      "transfer_methods": [
-        {
-          "name": "Secret Network IBC Transfer",
-          "type": "external_interface",
-          "deposit_url": "https://dash.scrt.network/ibc"
-        }
-      ],
+      "osmosis_unstable": true,
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "Shade (old) $SHD(old)"
     },
     {
       "chain_name": "secretnetwork",
@@ -1399,12 +1409,13 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "deposit_url": "https://dash.scrt.network/ibc"
+          "deposit_url": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=sienna"
         }
       ],
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "SIENNA $SIENNA"
     },
     {
       "chain_name": "secretnetwork",
@@ -1415,12 +1426,13 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "deposit_url": "https://dash.scrt.network/ibc"
+          "deposit_url": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=stkd-scrt"
         }
       ],
       "categories": [
         "liquid_staking"
-      ]
+      ],
+      "_comment": "SCRT Staking Derivatives $stkd-SCRT"
     },
     {
       "chain_name": "beezee",
@@ -1472,7 +1484,8 @@
       "chain_name": "juno",
       "base_denom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
       "path": "transfer/channel-169/cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
-      "osmosis_verified": false
+      "osmosis_verified": true,
+      "_comment": "POSTHUMAN $PHMN"
     },
     {
       "chain_name": "secretnetwork",
@@ -1483,9 +1496,10 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "deposit_url": "https://dash.scrt.network/ibc"
+          "deposit_url": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=amber"
         }
-      ]
+      ],
+      "_comment": "Amber $AMBER"
     },
     {
       "chain_name": "onomy",
@@ -1529,7 +1543,8 @@
           "deposit_url": "https://app.arable.finance/#/ibc",
           "withdraw_url": "https://app.arable.finance/#/ibc"
         }
-      ]
+      ],
+      "_comment": "Arable USD $arUSD"
     },
     {
       "chain_name": "planq",
@@ -1542,7 +1557,8 @@
           "type": "external_interface",
           "deposit_url": "https://pro.osmosis.zone/ibc?chainTo=osmosis-1&chainFrom=planq_7070-2&token0=aplanq&token1=ibc%2FB1E0166EA0D759FDF4B207D1F5F12210D8BFE36F2345CEFC76948CE2B36DFBAF"
         }
-      ]
+      ],
+      "_comment": "Planq $PLQ"
     },
     {
       "chain_name": "axelar",
@@ -1647,7 +1663,8 @@
           "deposit_url": "https://app.arable.finance/#/ibc",
           "withdraw_url": "https://app.arable.finance/#/ibc"
         }
-      ]
+      ],
+      "_comment": "Ciento Token $CNTO"
     },
     {
       "chain_name": "stride",
@@ -1686,7 +1703,8 @@
       "osmosis_verified": true,
       "categories": [
         "liquid_staking"
-      ]
+      ],
+      "_comment": "Quicksilver Staked ATOM $qATOM"
     },
     {
       "chain_name": "comdex",
@@ -1701,7 +1719,11 @@
       "chain_name": "quicksilver",
       "base_denom": "uqregen",
       "path": "transfer/channel-522/uqregen",
-      "osmosis_verified": true
+      "osmosis_verified": true,
+      "categories": [
+        "liquid_staking"
+      ],
+      "_comment": "Quicksilver Staked REGEN $qREGEN"
     },
     {
       "chain_name": "juno",
@@ -1733,7 +1755,8 @@
       "osmosis_verified": true,
       "categories": [
         "liquid_staking"
-      ]
+      ],
+      "_comment": "Quicksilver Staked OSMO $qOSMO"
     },
     {
       "chain_name": "noble",
@@ -1860,12 +1883,13 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "deposit_url": "https://dash.scrt.network/ibc"
+          "deposit_url": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=silk"
         }
       ],
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "Silk $SILK"
     },
     {
       "chain_name": "juno",
@@ -1908,9 +1932,17 @@
       "base_denom": "cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm",
       "path": "transfer/channel-476/cw20:secret153wu605vvp934xhd4k9dtd640zsep5jkesstdm",
       "osmosis_verified": true,
+      "transfer_methods": [
+        {
+          "name": "Secret Network IBC Transfer",
+          "type": "external_interface",
+          "deposit_url": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=shd"
+        }
+      ],
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "Shade $SHD"
     },
     {
       "chain_name": "bluzelle",
@@ -2044,7 +2076,8 @@
           "deposit_url": "https://pro.osmosis.zone/ibc?chainTo=osmosis-1&chainFrom=phoenix-1&token0=terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv&token1=ibc%2F98BCD43F190C6960D0005BC46BB765C827403A361C9C03C2FF694150A30284B0",
           "withdraw_url": "https://pro.osmosis.zone/ibc?chainFrom=osmosis-1&chainTo=phoenix-1&token0=ibc%2F98BCD43F190C6960D0005BC46BB765C827403A361C9C03C2FF694150A30284B0&token1=terra1lxx40s29qvkrcj8fsa3yzyehy7w50umdvvnls2r830rys6lu2zns63eelv"
         }
-      ]
+      ],
+      "_comment": "Lion DAO $ROAR"
     },
     {
       "chain_name": "stride",
@@ -2086,7 +2119,8 @@
           "deposit_url": "https://pro.osmosis.zone/ibc?chainTo=osmosis-1&chainFrom=phoenix-1&token0=terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t&token1=ibc%2F6F18EFEBF1688AA77F7EAC17065609494DC1BA12AFC78E9AEC832AF70A11BEF3",
           "withdraw_url": "https://pro.osmosis.zone/ibc?chainFrom=osmosis-1&chainTo=phoenix-1&token0=ibc%2F6F18EFEBF1688AA77F7EAC17065609494DC1BA12AFC78E9AEC832AF70A11BEF3&token1=terra1lalvk0r6nhruel7fvzdppk3tup3mh5j4d4eadrqzfhle4zrf52as58hh9t"
         }
-      ]
+      ],
+      "_comment": "Lion Cub DAO $CUB"
     },
     {
       "chain_name": "terra2",
@@ -2100,7 +2134,8 @@
           "deposit_url": "https://pro.osmosis.zone/ibc?chainTo=osmosis-1&chainFrom=phoenix-1&token0=terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584&token1=ibc%2FDA961FE314B009C38595FFE3AF41225D8894D663B8C3F6650DCB5B6F8435592E",
           "withdraw_url": "https://pro.osmosis.zone/ibc?chainFrom=osmosis-1&chainTo=phoenix-1&token0=ibc%2FDA961FE314B009C38595FFE3AF41225D8894D663B8C3F6650DCB5B6F8435592E&token1=terra1gwrz9xzhqsygyr5asrgyq3pu0ewpn00mv2zenu86yvx2nlwpe8lqppv584"
         }
-      ]
+      ],
+      "_comment": "BLUE CUB DAO $BLUE"
     },
     {
       "chain_name": "neutron",
@@ -2123,15 +2158,16 @@
       "osmosis_verified": true,
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=PICASSO&to=OSMOSIS",
-          "withdraw_url": "https://games.mantis.app/?from=OSMOSIS&to=PICASSO"
+          "deposit_url": "https://app.picasso.network/?from=PicassoKusama&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=PicassoKusama"
         }
       ],
       "categories": [
         "bridges"
-      ]
+      ],
+      "_comment": "Picasso $PICA"
     },
     {
       "chain_name": "composable",
@@ -2144,12 +2180,13 @@
       },
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=PICASSO&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=PICASSO"
+          "deposit_url": "https://app.picasso.network/?from=POLKADOT&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=POLKADOT"
         }
-      ]
+      ],
+      "_comment": "Kusama $KSM"
     },
     {
       "chain_name": "composable",
@@ -2162,12 +2199,13 @@
       },
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=POLKADOT&to=OSMOSIS",
-          "withdraw_url": "https://games.mantis.app/?from=OSMOSIS&to=POLKADOT"
+          "deposit_url": "https://app.picasso.network/?from=POLKADOT&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=POLKADOT"
         }
-      ]
+      ],
+      "_comment": "Polkadot $DOT"
     },
     {
       "chain_name": "quasar",
@@ -2198,7 +2236,8 @@
           "type": "external_interface",
           "deposit_url": "https://pro.osmosis.zone/ibc?chainTo=osmosis-1&chainFrom=empowerchain-1&token0=umpwr&token1=ibc%2FDD3938D8131F41994C1F01F4EB5233DEE9A0A5B787545B9A07A321925655BF38"
         }
-      ]
+      ],
+      "_comment": "EmpowerChain $MPWR"
     },
     {
       "chain_name": "juno",
@@ -2252,7 +2291,8 @@
           "deposit_url": "https://pro.osmosis.zone/ibc?chainFrom=pacific-1&chainTo=osmosis-1&token0=usei&token1=ibc%2F71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D",
           "withdraw_url": "https://pro.osmosis.zone/ibc?chainFrom=osmosis-1&chainTo=pacific-1&token0=ibc%2F71F11BC0AF8E526B80E44172EBA9D3F0A8E03950BB882325435691EBC9450B1D&token1=usei"
         }
-      ]
+      ],
+      "_comment": "Sei $SEI"
     },
     {
       "chain_name": "quicksilver",
@@ -2292,12 +2332,19 @@
       },
       "transfer_methods": [
         {
+          "name": "Osmosis Wormhole Connect",
+          "type": "external_interface",
+          "deposit_url": "/wormhole?from=solana&to=osmosis&token=SOL",
+          "withdraw_url": "/wormhole?from=osmosis&to=solana&token=SOL"
+        },
+        {
           "name": "Wormhole Portal Bridge",
           "type": "external_interface",
           "deposit_url": "https://portalbridge.com/cosmos/",
           "withdraw_url": "https://portalbridge.com/cosmos/"
         }
-      ]
+      ],
+      "_comment": "Solana $SOL"
     },
     {
       "chain_name": "gateway",
@@ -2313,12 +2360,19 @@
       },
       "transfer_methods": [
         {
+          "name": "Osmosis Wormhole Connect",
+          "type": "external_interface",
+          "deposit_url": "/wormhole?from=solana&to=osmosis&token=BONK",
+          "withdraw_url": "/wormhole?from=osmosis&to=solana&token=BONK"
+        },
+        {
           "name": "Wormhole Portal Bridge",
           "type": "external_interface",
           "deposit_url": "https://portalbridge.com/cosmos/",
           "withdraw_url": "https://portalbridge.com/cosmos/"
         }
-      ]
+      ],
+      "_comment": "Bonk $BONK"
     },
     {
       "chain_name": "gateway",
@@ -2342,7 +2396,8 @@
       ],
       "categories": [
         "stablecoin"
-      ]
+      ],
+      "_comment": "Tether USD (Wormhole) $USDT.wh"
     },
     {
       "chain_name": "gateway",
@@ -2355,12 +2410,19 @@
       },
       "transfer_methods": [
         {
+          "name": "Osmosis Wormhole Connect",
+          "type": "external_interface",
+          "deposit_url": "/wormhole?from=sui&to=osmosis&token=SUI",
+          "withdraw_url": "/wormhole?from=osmosis&to=sui&token=SUI"
+        },
+        {
           "name": "Wormhole Portal Bridge",
           "type": "external_interface",
           "deposit_url": "https://portalbridge.com/cosmos/",
           "withdraw_url": "https://portalbridge.com/cosmos/"
         }
-      ]
+      ],
+      "_comment": "Sui $SUI"
     },
     {
       "chain_name": "gateway",
@@ -2378,12 +2440,19 @@
       },
       "transfer_methods": [
         {
+          "name": "Osmosis Wormhole Connect",
+          "type": "external_interface",
+          "deposit_url": "/wormhole?from=aptos&to=osmosis&token=APT",
+          "withdraw_url": "/wormhole?from=osmosis&to=aptos&token=APT"
+        },
+        {
           "name": "Wormhole Portal Bridge",
           "type": "external_interface",
           "deposit_url": "https://portalbridge.com/cosmos/",
           "withdraw_url": "https://portalbridge.com/cosmos/"
         }
-      ]
+      ],
+      "_comment": "Aptos $APT"
     },
     {
       "chain_name": "kujira",
@@ -2399,7 +2468,8 @@
       ],
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "MantaDAO $MNTA"
     },
     {
       "chain_name": "juno",
@@ -2429,7 +2499,8 @@
       ],
       "categories": [
         "stablecoin"
-      ]
+      ],
+      "_comment": "USDC (Wormhole) $USDC.wh"
     },
     {
       "chain_name": "gateway",
@@ -2449,7 +2520,8 @@
           "deposit_url": "https://portalbridge.com/cosmos/",
           "withdraw_url": "https://portalbridge.com/cosmos/"
         }
-      ]
+      ],
+      "_comment": "Ether (Wormhole) $wETH.wh"
     },
     {
       "chain_name": "noble",
@@ -2498,7 +2570,8 @@
       ],
       "categories": [
         "gaming"
-      ]
+      ],
+      "_comment": "XPLA $XPLA"
     },
     {
       "chain_name": "sei",
@@ -2517,7 +2590,8 @@
           "type": "external_interface",
           "deposit_url": "https://app.evmos.org/assets"
         }
-      ]
+      ],
+      "_comment": "Neokingdom DAO $NEOK"
     },
     {
       "chain_name": "realio",
@@ -2533,7 +2607,8 @@
       ],
       "categories": [
         "rwa"
-      ]
+      ],
+      "_comment": "Realio $RIO"
     },
     {
       "chain_name": "osmosis",
@@ -2580,19 +2655,22 @@
       "osmosis_verified": true,
       "categories": [
         "liquid_staking"
-      ]
+      ],
+      "_comment": "rATOM $rATOM"
     },
     {
       "chain_name": "stargaze",
       "base_denom": "factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
       "path": "transfer/channel-75/factory/stars16da2uus9zrsy83h23ur42v3lglg5rmyrpqnju4/dust",
-      "osmosis_verified": true
+      "osmosis_verified": true,
+      "_comment": "Stardust STRDST $STRDST"
     },
     {
       "chain_name": "doravota",
       "base_denom": "peaka",
       "path": "transfer/channel-2694/peaka",
-      "osmosis_verified": true
+      "osmosis_verified": true,
+      "_comment": "Dora Vota $DORA"
     },
     {
       "chain_name": "coreum",
@@ -2601,14 +2679,16 @@
       "osmosis_verified": true,
       "categories": [
         "bridges"
-      ]
+      ],
+      "_comment": "Coreum $COREUM"
     },
     {
       "chain_name": "celestia",
       "base_denom": "utia",
       "path": "transfer/channel-6994/utia",
       "twitter_URL": "https://twitter.com/CelestiaOrg",
-      "osmosis_verified": true
+      "osmosis_verified": true,
+      "_comment": "Celestia $TIA"
     },
     {
       "chain_name": "dydx",
@@ -2623,7 +2703,8 @@
       },
       "categories": [
         "defi"
-      ]
+      ],
+      "_comment": "dYdX Protocol $DYDX"
     },
     {
       "chain_name": "fxcore",
@@ -2636,13 +2717,15 @@
           "type": "external_interface",
           "deposit_url": "https://starscan.io/fxbridge?from=fxcore&to=osmosis&token=FX"
         }
-      ]
+      ],
+      "_comment": "f(x)core $FX"
     },
     {
       "chain_name": "nomic",
       "base_denom": "usat",
       "path": "transfer/channel-6897/usat",
-      "osmosis_verified": true
+      "osmosis_verified": true,
+      "_comment": "Nomic Bitcoin $nBTC"
     },
     {
       "chain_name": "nois",
@@ -2651,7 +2734,8 @@
       "osmosis_verified": true,
       "categories": [
         "dweb"
-      ]
+      ],
+      "_comment": "Nois $NOIS"
     },
     {
       "chain_name": "osmosis",
@@ -2889,7 +2973,8 @@
       ],
       "categories": [
         "meme"
-      ]
+      ],
+      "_comment": "Dog wif nunchucks $NINJA"
     },
     {
       "chain_name": "juno",
@@ -3056,22 +3141,29 @@
       "chain_name": "injective",
       "base_denom": "peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
       "path": "transfer/channel-122/peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
-      "twitter_URL": "https://twitter.com/Gelotto2",
       "osmosis_verified": false,
       "listing_date_time_utc": "2024-03-01T20:23:00Z",
       "override_properties": {
         "symbol": "injective.GLTO",
         "name": "Gelotto (Injective)"
       },
+      "transfer_methods": [
+        {
+          "name": "Osmosis Pro TFM IBC Transfer",
+          "type": "external_interface",
+          "deposit_url": "https://pro.osmosis.zone/ibc?chainFrom=injective-1&chainTo=osmosis-1&token0=peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2&token1=ibc%2F072E5B3D6F278B3E6A9C51D7EAD1A737148609512C5EBE8CBCB5663264A0DDB7",
+          "withdraw_url": "https://pro.osmosis.zone/ibc?chainFrom=osmosis-1&chainTo=injective-1&token0=ibc%2F072E5B3D6F278B3E6A9C51D7EAD1A737148609512C5EBE8CBCB5663264A0DDB7&token1=peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2"
+        }
+      ],
       "categories": [
         "gaming"
-      ]
+      ],
+      "_comment": "Gelotto (Injective) $injective.GLTO"
     },
     {
       "chain_name": "dymension",
       "base_denom": "adym",
       "path": "transfer/channel-19774/adym",
-      "twitter_URL": "https://twitter.com/dymension",
       "osmosis_verified": true,
       "listing_date_time_utc": "2024-02-06T08:36:00Z",
       "transfer_methods": [
@@ -3080,7 +3172,8 @@
           "type": "external_interface",
           "deposit_url": "https://portal.dymension.xyz/ibc/transfer?sourceId=dymension_1100-1&destinationId=osmosis-1"
         }
-      ]
+      ],
+      "_comment": "Dymension $DYM"
     },
     {
       "chain_name": "osmosis",
@@ -3144,18 +3237,25 @@
       ],
       "categories": [
         "stablecoin"
-      ]
+      ],
+      "_comment": "Solana USDC (Wormhole) $solana.USDC.wh"
     },
     {
       "chain_name": "humans",
       "base_denom": "aheart",
       "path": "transfer/channel-20082/aheart",
-      "twitter_URL": "https://twitter.com/humansdotai",
+      "listing_date_time_utc": "2024-03-08T16:25:00Z",
       "osmosis_verified": true,
+      "transfer_methods": [
+        {
+          "name": "Osmosis Pro TFM IBC Transfer",
+          "type": "external_interface",
+          "deposit_url": "https://pro.osmosis.zone/ibc?chainFrom=humans_1089-1&chainTo=osmosis-1&token0=aheart&token1=ibc%2F35CECC330D11DD00FACB555D07687631E0BC7D226260CC5F015F6D7980819533"
+        }
+      ],
       "categories": [
         "ai"
       ],
-      "listing_date_time_utc": "2024-03-08T16:25:00Z",
       "_comment": "Humans.ai $HEART"
     },
     {
@@ -3185,8 +3285,8 @@
       "base_denom": "uc4e",
       "twitter_URL": "https://twitter.com/Chain4Energy",
       "path": "transfer/channel-22172/uc4e",
-      "osmosis_verified": false,
-      "osmosis_unlisted": true
+      "osmosis_verified": true,
+      "listing_date_time_utc": "2024-03-06T12:52:00Z"
     },
     {
       "chain_name": "terra2",
@@ -3268,7 +3368,8 @@
       "categories": [
         "ai",
         "dweb"
-      ]
+      ],
+      "_comment": "AIOZ $AIOZ"
     },
     {
       "chain_name": "stride",
@@ -3278,7 +3379,8 @@
         "liquid_staking"
       ],
       "osmosis_verified": true,
-      "listing_date_time_utc": "2024-03-14T03:23:00Z"
+      "listing_date_time_utc": "2024-03-14T03:23:00Z",
+      "_comment": "Stride Staked DYM $stDYM"
     },
     {
       "chain_name": "odin",
@@ -3428,23 +3530,30 @@
         "liquid_staking",
         "sail_initiative"
       ],
-      "osmosis_verified": false,
-      "osmosis_unlisted": true,
+      "osmosis_verified": true,
+      "listing_date_time_utc": "2024-05-15T18:00:00Z",
       "_comment": "BackBone Labs Liquid Staked OSMO $bOSMO"
     },
     {
-      "chain_name": "pundix",
-      "base_denom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
-      "path": "transfer/channel-12618/transfer/channel-0/eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+      "chain_name": "fxcore",
+      "base_denom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+      "path": "transfer/channel-2716/eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+      "transfer_methods": [
+        {
+          "name": "Starscan",
+          "type": "external_interface",
+          "deposit_url": "https://starscan.io/fxbridge?from=fxcore&to=osmosis&token=PUNDIX"
+        }
+      ],
       "canonical": {
         "chain_name": "ethereum",
         "base_denom": "0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38"
       },
+      "osmosis_verified": false,
       "categories": [
         "depin"
       ],
-      "osmosis_verified": false,
-      "osmosis_unlisted": true,
+      "listing_date_time_utc": "2024-05-21T16:00:00Z",
       "_comment": "PundiX $PUNDIX"
     },
     {
@@ -3458,10 +3567,10 @@
       },
       "transfer_methods": [
         {
-          "name": "Composable Trustless Zone",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://app.trustless.zone/?from=PICASSO&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=PICASSO"
+          "deposit_url": "https://app.picasso.network/?from=PicassoKusama&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=PicassoKusama"
         }
       ],
       "osmosis_verified": true,
@@ -3480,8 +3589,8 @@
         {
           "name": "Osmosis Wormhole Portal",
           "type": "external_interface",
-          "deposit_url": "/wormhole",
-          "withdraw_url": "/wormhole"
+          "deposit_url": "/wormhole?from=solana&to=osmosis&token=W",
+          "withdraw_url": "/wormhole?from=osmosis&to=solana&token=W"
         }
       ],
       "categories": [
@@ -3495,9 +3604,12 @@
       "chain_name": "dhealth",
       "base_denom": "udhp",
       "twitter_URL": "https://twitter.com/dhealth_network",
-      "path": "transfer/channel-73360/udhp",
-      "osmosis_verified": false,
-      "osmosis_unlisted": true,
+      "path": "transfer/channel-75030/udhp",
+      "osmosis_verified": true,
+      "categories": [
+        "dweb"
+      ],
+      "listing_date_time_utc": "2024-05-16T17:00:00Z",
       "_comment": "dHealth Token $DHP"
     },
     {
@@ -3594,11 +3706,12 @@
       "osmosis_unlisted": true,
       "transfer_methods": [
         {
-            "name": "Evmos App",
-            "type": "external_interface",
-            "deposit_url": "https://app.evmos.org/assets"
+          "name": "Evmos App",
+          "type": "external_interface",
+          "deposit_url": "https://app.evmos.org/assets"
         }
-      ]
+      ],
+      "_comment": "Crowdpunk DAO $CROWDP"
     },
     {
       "chain_name": "neutron",
@@ -3672,15 +3785,15 @@
       "chain_name": "composable",
       "base_denom": "ibc/F9D075D4079FC56A9C49B601E54A45292C319D8B0E8CC0F8439041130AA7166C",
       "path": "transfer/channel-1279/transfer/channel-52/wei",
-      "osmosis_verified": false,
+      "osmosis_verified": true,
       "listing_date_time_utc": "2024-04-25T15:30:00Z",
-      "_comment": "Ethereum $ETH",
+      "_comment": "Ether (Picasso) $ETH.pica",
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         }
       ],
       "override_properties": {
@@ -3696,13 +3809,13 @@
       "path": "transfer/channel-1279/transfer/channel-52/0x6b175474e89094c44da98b954eedeac495271d0f",
       "osmosis_verified": false,
       "listing_date_time_utc": "2024-04-25T15:30:00Z",
-      "_comment": "Dai $DAI",
+      "_comment": "Dai Stablecoin (Picasso) $DAI.pica",
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         }
       ],
       "override_properties": {
@@ -3716,15 +3829,15 @@
       "chain_name": "composable",
       "base_denom": "ibc/5F9BE030FC355733EC79307409FA98398BBFC747C9430B326C144A74F6808B29",
       "path": "transfer/channel-1279/transfer/channel-52/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
-      "osmosis_verified": false,
+      "osmosis_verified": true,
       "listing_date_time_utc": "2024-04-25T15:30:00Z",
-      "_comment": "Frax Shares $FXS",
+      "_comment": "Frax Shares (Picasso) $FXS.pica",
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         }
       ],
       "override_properties": {
@@ -3740,13 +3853,13 @@
       "path": "transfer/channel-1279/transfer/channel-52/0x853d955acef822db058eb8505911ed77f175b99e",
       "osmosis_verified": false,
       "listing_date_time_utc": "2024-04-25T15:30:00Z",
-      "_comment": "Frax $FRAX",
+      "_comment": "Frax (Picasso) $FRAX.pica",
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         }
       ],
       "override_properties": {
@@ -3762,13 +3875,13 @@
       "path": "transfer/channel-1279/transfer/channel-52/0xdac17f958d2ee523a2206206994597c13d831ec7",
       "osmosis_verified": false,
       "listing_date_time_utc": "2024-04-25T15:30:00Z",
-      "_comment": "Tether $USDT",
+      "_comment": "Tether USD (Picasso) $USDT.pica",
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         }
       ],
       "override_properties": {
@@ -3782,15 +3895,15 @@
       "chain_name": "composable",
       "base_denom": "ibc/5BD7F23FE150D9CF3BCC944DB829380BCC51A4022A131151C4D13B3AFAC2D1D9",
       "path": "transfer/channel-1279/transfer/channel-52/0xa663b02cf0a4b149d2ad41910cb81e23e1c41c32",
-      "osmosis_verified": false,
+      "osmosis_verified": true,
       "listing_date_time_utc": "2024-04-25T15:30:00Z",
-      "_comment": "Staked Frax $sFRAX",
+      "_comment": "Staked Frax (Picasso) $sFRAX.pica",
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         }
       ],
       "override_properties": {
@@ -3806,13 +3919,13 @@
       "path": "transfer/channel-1279/transfer/channel-52/0x5e8422345238f34275888049021821e8e08caa1f",
       "osmosis_verified": false,
       "listing_date_time_utc": "2024-04-25T15:30:00Z",
-      "_comment": "Frax Ether $frxETH",
+      "_comment": "Frax Ether (Picasso) $frxETH.pica",
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         }
       ],
       "override_properties": {
@@ -3826,15 +3939,15 @@
       "chain_name": "composable",
       "base_denom": "ibc/4E0ECE7819D77B0F2B49F5C34B5E594A02D2BA8B1B0F103208F847B53EBFB69A",
       "path": "transfer/channel-1279/transfer/channel-52/0xac3e018457b222d93114458476f3e3416abbe38f",
-      "osmosis_verified": false,
+      "osmosis_verified": true,
       "listing_date_time_utc": "2024-04-25T15:30:00Z",
-      "_comment": "Frax Staked Ether $sfrxETH",
+      "_comment": "Frax Staked Ether (Picasso) $sfrxETH.pica",
       "transfer_methods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "deposit_url": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdraw_url": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         }
       ],
       "override_properties": {
@@ -3871,30 +3984,478 @@
       "base_denom": "factory/osmo19hdqma2mj0vnmgcxag6ytswjnr8a3y07q7e70p/wLIBRA",
       "osmosis_verified": true,
       "listing_date_time_utc": "2024-04-30T12:00:00Z",
-      "transfer_methods": [
-        {
-          "name": "LibraBridge",
-          "type": "external_interface",
-          "deposit_url": "https://librabridge.com/",
-          "withdraw_url": "https://librabridge.com/"
-        }
-      ],
       "_comment": "Wrapped Libra Coin $wLIBRA"
     },
     {
       "chain_name": "dymension",
-      "base_denom": "anim",
-      "path": "transfer/channel-19774/anim",
+      "base_denom": "ibc/FB53D1684F155CBB86D9CE917807E42B59209EBE3AD3A92E15EF66586C073942",
+      "path": "transfer/channel-19774/transfer/channel-49/anim",
       "osmosis_verified": false,
+      "osmosis_unstable": true,
       "listing_date_time_utc": "2024-05-01T18:25:00Z",
       "transfer_methods": [
         {
           "name": "Dymension Portal",
           "type": "external_interface",
-          "deposit_url": "https://portal.dymension.xyz/ibc?sourceId=dymension_1100-1&destinationId=osmosis-1"
+          "deposit_url": "https://portal.dymension.xyz/ibc/transfer?sourceId=dymension_1100-1&destinationId=osmosis-1"
         }
       ],
-      "_comment": "NIM Network $NIM"
+      "_comment": "Nim Network $NIM"
+    },
+    {
+      "chain_name": "seda",
+      "base_denom": "aseda",
+      "path": "transfer/channel-75016/aseda",
+      "osmosis_verified": true,
+      "listing_date_time_utc": "2024-05-03T13:00:00Z",
+      "_comment": "SEDA $SEDA"
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/cac",
+      "osmosis_verified": true,
+      "listing_date_time_utc": "2024-05-06T12:00:00Z",
+      "_comment": "Cosmos Airdrop Chat $CAC",
+      "categories": [
+        "meme"
+      ]
+    },
+    {
+      "chain_name": "neutron",
+      "base_denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD",
+      "path": "transfer/channel-874/factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD",
+      "categories": [
+        "meme"
+      ],
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-05-08T18:00:00Z",
+      "_comment": "$WEIRD Friends NFTs"
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/pbb",
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-05-13T18:41:03Z",
+      "_comment": "Power Bottom $PBB",
+      "categories": [
+        "meme"
+      ]
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bwh",
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-05-13T18:59:11Z",
+      "_comment": "BeerWifHat $BWH",
+      "categories": [
+        "meme"
+      ]
+    },
+    {
+      "chain_name": "juno",
+      "base_denom": "cw20:juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg",
+      "path": "transfer/channel-169/cw20:juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg",
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-05-13T19:00:00Z",
+      "_comment": "Airdrop For All $AFA"
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-05-14T15:45:04Z",
+      "_comment": "Shitmos $SHITMOS",
+      "categories": [
+        "meme"
+      ]
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqjuno",
+      "path": "transfer/channel-522/uqjuno",
+      "osmosis_verified": false,
+      "categories": [
+        "liquid_staking"
+      ],
+      "listing_date_time_utc": "2024-05-14T18:30:00Z",
+      "_comment": "Quicksilver Staked JUNO $qJUNO"
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqsaga",
+      "path": "transfer/channel-522/uqsaga",
+      "osmosis_verified": false,
+      "categories": [
+        "liquid_staking"
+      ],
+      "listing_date_time_utc": "2024-05-14T18:30:00Z",
+      "_comment": "Quicksilver Staked SAGA $qSAGA"
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "aqdydx",
+      "path": "transfer/channel-522/aqdydx",
+      "osmosis_verified": false,
+      "categories": [
+        "liquid_staking"
+      ],
+      "listing_date_time_utc": "2024-05-14T18:30:00Z",
+      "_comment": "Quicksilver Staked DYDX $qDYDX"
+    },
+    {
+      "chain_name": "quicksilver",
+      "base_denom": "uqbld",
+      "path": "transfer/channel-522/uqbld",
+      "osmosis_verified": false,
+      "categories": [
+        "liquid_staking"
+      ],
+      "listing_date_time_utc": "2024-05-14T18:30:00Z",
+      "_comment": "Quicksilver Staked BLD $qBLD"
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/6367C5AF2E2477FB13DD0C8CB0027FEDDF5AE947EE84C69FB75003E604E29D05",
+      "path": "transfer/channel-1279/transfer/channel-52/0x6982508145454ce325ddbe47a25d4ec3d2311933",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Pepe $PEPE.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        }
+      ],
+      "override_properties": {
+        "symbol": "PEPE.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/52C8C6197989684F891076F228F20CD1659AB6E1776E3B85E65CBBEC67DA5DED",
+      "path": "transfer/channel-1279/transfer/channel-52/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Curve DAO $CRV.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        }
+      ],
+      "override_properties": {
+        "symbol": "CRV.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/crv.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/0247E0E2C174135AADF4EA172D97FF5C15A64689A403E83603EAE4F0616DD365",
+      "path": "transfer/channel-1279/transfer/channel-52/0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Renzo Restaked ETH $ezETH.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        }
+      ],
+      "override_properties": {
+        "symbol": "ezETH.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ezeth.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/FFD9EB71B4480ED4D73F7370A2AEBDB48447A0AAE27265F8060A957F0FF71983",
+      "path": "transfer/channel-1279/transfer/channel-52/0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Ethena USDe $USDe.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        }
+      ],
+      "override_properties": {
+        "symbol": "USDe.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usde.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/B089810D5A6316AD5E9C7808733DC4AB11C7BA3033221D28711FC7206BACB929",
+      "path": "transfer/channel-1279/transfer/channel-52/0x57e114b691db790c35207b2e685d4a43181e6061",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Ethena $ENA.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        }
+      ],
+      "override_properties": {
+        "symbol": "ENA.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ena.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/34C23BA6BAA2EAE0199D85AD1E2E214F76B0BFAD42BF75542D15F71264EEB05B",
+      "path": "transfer/channel-1279/transfer/channel-52/0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "ether.fi Staked ETH $eETH.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        }
+      ],
+      "override_properties": {
+        "symbol": "eETH.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eeth.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/36EF1EA47A09689C81D848B08E5240FA9FF13B17DB7DCF48B77D4D0D9B152821",
+      "path": "transfer/channel-1279/transfer/channel-52/0x04c154b66cb340f3ae24111cc767e0184ed00cc6",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Dinero Staked ETH $pxETH.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        }
+      ],
+      "override_properties": {
+        "symbol": "pxETH.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pxeth.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/C9D79BE8E3E75CA2DFDC722C77D7B179C39A4802D59019C790A825FDE34B724A",
+      "path": "transfer/channel-1279/transfer/channel-52/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "crvUSD $crvUSD.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        }
+      ],
+      "override_properties": {
+        "symbol": "crvUSD.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/crvUSD.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/wiha",
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-05-16T21:03:04Z",
+      "_comment": "WiliHall $WIHA",
+      "categories": [
+        "meme"
+      ]
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/crazyhorse",
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-05-14T22:32:04Z",
+      "_comment": "HorseShoeBar $CRAZYHORSE",
+      "categories": [
+        "meme"
+      ]
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/coca",
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-05-21T11:07:05Z",
+      "_comment": "CosmusCartol $COCA",
+      "categories": [
+        "meme"
+      ]
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/D105950618E47CA2AEC314282BC401625025F80A4F812808DEEBB1941C685575",
+      "path": "transfer/channel-1279/transfer/channel-71/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Tether (Solana) $USDT.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        }
+      ],
+      "override_properties": {
+        "symbol": "solana.USDT.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solana.usdt.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/BADB5950C4A81AC201696EBCB33CD295137FA86F0AA620CDDE946D3700E0208C",
+      "path": "transfer/channel-1279/transfer/channel-71/edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Edgevana Staked SOL $edgeSOL.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        }
+      ],
+      "override_properties": {
+        "symbol": "edgeSOL.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/edgesol.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/55F5B582483FEFA5422794292B079B4D49A5BAB9881E7C801F9F271F1D234F1D",
+      "path": "transfer/channel-1279/transfer/channel-71/LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Liquid Staking Token $LST.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        }
+      ],
+      "override_properties": {
+        "symbol": "LST.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/lst.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/91A2FE07F8BDFC0552B1C9972FCCBF2CFD067DDE5F496D81E5132CE57762B0F2",
+      "path": "transfer/channel-1279/transfer/channel-71/J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Jito Staked SOL $jitoSOL.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        }
+      ],
+      "override_properties": {
+        "symbol": "jitoSOL.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/jitosol.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/2CC39C8141F257EBBA250F65B9D0F31DC8D153C225E51EC192DE6E3F65D43F0C",
+      "path": "transfer/channel-1279/transfer/channel-71/So11111111111111111111111111111111111111112",
+      "osmosis_verified": false,
+      "osmosis_unlisted": true,
+      "_comment": "Wrapped Solana $wSOL.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        }
+      ],
+      "override_properties": {
+        "symbol": "wSOL.pica",
+        "logo_URIs": {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wsol.pica.png"
+        }
+      }
+    },
+    {
+      "chain_name": "osmosis",
+      "base_denom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+      "osmosis_verified": false,
+      "peg_mechanism": "collateralized",
+      "listing_date_time_utc": "2024-05-29T10:27:00Z",
+      "osmosis_unlisted": true,
+      "_comment": "Alloyed USDT $allUSDT",
+      "categories": [
+        "stablecoin"
+      ]
+    },
+    {
+      "chain_name": "composable",
+      "base_denom": "ibc/9D5DA3720001F91DD76B8F609A93F96688EC8185B54BF9A1A1450EB34FF2D912",
+      "path": "transfer/channel-1279/transfer/channel-71/ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
+      "osmosis_verified": false,
+      "listing_date_time_utc": "2024-06-05T03:00:00Z",
+      "_comment": "WHINEcoin (Solana) $WHINE.pica",
+      "transfer_methods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "deposit_url": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdraw_url": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        }
+      ]
     }
   ]
 }

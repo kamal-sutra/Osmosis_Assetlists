@@ -13,7 +13,7 @@
       },
       "coingeckoId": "osmosis",
       "price": {
-        "poolId": "1263",
+        "poolId": "1464",
         "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
@@ -261,6 +261,7 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wbtc.axl.png"
       },
+      "coingeckoId": "axlwbtc",
       "price": {
         "poolId": "1422",
         "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
@@ -315,11 +316,7 @@
       "verified": true,
       "unstable": false,
       "disabled": false,
-      "preview": false,
-      "sortWith": {
-        "chainName": "axelar",
-        "sourceDenom": "uaxl"
-      }
+      "preview": false
     },
     {
       "chainName": "axelar",
@@ -330,6 +327,7 @@
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdt.axl.svg"
       },
+      "coingeckoId": "axelar-usdt",
       "price": {
         "poolId": "1150",
         "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
@@ -387,11 +385,7 @@
       "verified": true,
       "unstable": false,
       "disabled": false,
-      "preview": false,
-      "sortWith": {
-        "chainName": "axelar",
-        "sourceDenom": "uaxl"
-      }
+      "preview": false
     },
     {
       "chainName": "axelar",
@@ -404,8 +398,8 @@
       },
       "coingeckoId": "dai",
       "price": {
-        "poolId": "1261",
-        "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
+        "poolId": "1260",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
         "stablecoin"
@@ -475,7 +469,7 @@
       "coingeckoId": "binance-usd",
       "price": {
         "poolId": "877",
-        "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4"
+        "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
       },
       "categories": [
         "stablecoin"
@@ -507,7 +501,8 @@
           "symbol": "BUSD",
           "decimals": 18,
           "logoURIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/busd.svg"
           }
         },
         {
@@ -543,7 +538,7 @@
       },
       "coingeckoId": "cosmos",
       "price": {
-        "poolId": "1251",
+        "poolId": "1282",
         "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [],
@@ -775,6 +770,7 @@
           "symbol": "WMATIC",
           "decimals": 18,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polygon/images/wmatic.svg"
           }
         },
@@ -1423,8 +1419,8 @@
       },
       "coingeckoId": "persistence",
       "price": {
-        "poolId": "1101",
-        "denom": "uosmo"
+        "poolId": "1773",
+        "denom": "factory/osmo1z0qrq605sjgcqpylfl4aa6s90x738j7m58wyatt0tdzflg2ha26q67k743/wbtc"
       },
       "categories": [
         "liquid_staking"
@@ -1562,8 +1558,8 @@
       },
       "coingeckoId": "akash-network",
       "price": {
-        "poolId": "1093",
-        "denom": "uosmo"
+        "poolId": "1301",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
         "ai",
@@ -2127,8 +2123,8 @@
       },
       "coingeckoId": "bitsong",
       "price": {
-        "poolId": "1109",
-        "denom": "uosmo"
+        "poolId": "574",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
       },
       "categories": [
         "social"
@@ -2294,8 +2290,8 @@
       },
       "coingeckoId": "bostrom",
       "price": {
-        "poolId": "597",
-        "denom": "uosmo"
+        "poolId": "912",
+        "denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
       },
       "categories": [
         "ai"
@@ -2559,8 +2555,8 @@
       "variantGroupKey": "VDL",
       "name": "Vidulum",
       "verified": true,
-      "unstable": false,
-      "disabled": false,
+      "unstable": true,
+      "disabled": true,
       "preview": false
     },
     {
@@ -3023,7 +3019,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/marble.svg"
       },
-      "coingeckoId": "marble",
       "price": {
         "poolId": "649",
         "denom": "uosmo"
@@ -3656,7 +3651,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hope.svg"
       },
-      "coingeckoId": "hope-galaxy",
       "price": {
         "poolId": "653",
         "denom": "uosmo"
@@ -3996,6 +3990,7 @@
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usdc.grv.svg"
       },
+      "coingeckoId": "gravity-bridge-usdc",
       "price": {
         "poolId": "872",
         "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
@@ -4054,15 +4049,11 @@
         }
       ],
       "variantGroupKey": "USDC",
-      "name": "USD Coin (Gravity Bridge)",
+      "name": "USDC (Gravity Bridge)",
       "verified": true,
       "unstable": false,
       "disabled": false,
-      "preview": false,
-      "sortWith": {
-        "chainName": "gravitybridge",
-        "sourceDenom": "ugrav"
-      }
+      "preview": false
     },
     {
       "chainName": "gravitybridge",
@@ -4447,7 +4438,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/raw.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/raw.svg"
       },
-      "coingeckoId": "junoswap-raw-dao",
       "price": {
         "poolId": "700",
         "denom": "uosmo"
@@ -4667,8 +4657,8 @@
       },
       "coingeckoId": "terra-luna-2",
       "price": {
-        "poolId": "1163",
-        "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
+        "poolId": "1728",
+        "denom": "uosmo"
       },
       "categories": [],
       "transferMethods": [
@@ -4887,8 +4877,8 @@
       },
       "coingeckoId": "chainlink",
       "price": {
-        "poolId": "1588",
-        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        "poolId": "731",
+        "denom": "uosmo"
       },
       "categories": [
         "oracles"
@@ -5472,7 +5462,6 @@
       "logoURIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.svg"
       },
-      "coingeckoId": "echelon",
       "price": {
         "poolId": "848",
         "denom": "uosmo"
@@ -5747,7 +5736,8 @@
       "symbol": "GLMR",
       "decimals": 18,
       "logoURIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png"
       },
       "coingeckoId": "moonbeam",
       "price": {
@@ -5795,6 +5785,7 @@
           "symbol": "WGLMR",
           "decimals": 18,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
           }
         },
@@ -5807,6 +5798,7 @@
           "symbol": "GLMR",
           "decimals": 18,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/moonbeam/images/glmr.svg"
           }
         }
@@ -6336,7 +6328,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/sejuno.svg"
       },
-      "coingeckoId": "stakeeasy-juno-derivative",
       "price": {
         "poolId": "807",
         "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED"
@@ -6391,7 +6382,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bjuno.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/bjuno.svg"
       },
-      "coingeckoId": "stakeeasy-bjuno",
       "categories": [],
       "transferMethods": [
         {
@@ -7107,7 +7097,7 @@
       },
       "coingeckoId": "usk",
       "price": {
-        "poolId": "1650",
+        "poolId": "1648",
         "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
@@ -7165,8 +7155,8 @@
       "symbol": "FUND",
       "decimals": 9,
       "logoURIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.svg"
       },
       "coingeckoId": "unification",
       "price": {
@@ -7288,7 +7278,7 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "depositUrl": "https://dash.scrt.network/ibc"
+          "depositUrl": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=alter"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -7338,7 +7328,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/butt.svg"
       },
-      "coingeckoId": "buttcoin-2",
       "price": {
         "poolId": "985",
         "denom": "uosmo"
@@ -7348,7 +7337,7 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "depositUrl": "https://dash.scrt.network/ibc"
+          "depositUrl": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=butt"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -7406,11 +7395,6 @@
       ],
       "transferMethods": [
         {
-          "name": "Secret Network IBC Transfer",
-          "type": "external_interface",
-          "depositUrl": "https://dash.scrt.network/ibc"
-        },
-        {
           "name": "Osmosis IBC Transfer",
           "type": "ibc",
           "counterparty": {
@@ -7443,8 +7427,8 @@
       "variantGroupKey": "SHD(old)",
       "name": "Shade (old)",
       "verified": false,
-      "unstable": false,
-      "disabled": false,
+      "unstable": true,
+      "disabled": true,
       "preview": false
     },
     {
@@ -7469,7 +7453,7 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "depositUrl": "https://dash.scrt.network/ibc"
+          "depositUrl": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=sienna"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -7531,7 +7515,7 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "depositUrl": "https://dash.scrt.network/ibc"
+          "depositUrl": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=stkd-scrt"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -7910,8 +7894,8 @@
       },
       "coingeckoId": "posthuman",
       "price": {
-        "poolId": "1255",
-        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2"
+        "poolId": "1738",
+        "denom": "uosmo"
       },
       "categories": [],
       "transferMethods": [
@@ -7948,7 +7932,7 @@
       ],
       "variantGroupKey": "PHMN",
       "name": "POSTHUMAN",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
       "preview": false
@@ -7972,7 +7956,7 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "depositUrl": "https://dash.scrt.network/ibc"
+          "depositUrl": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=amber"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -8190,7 +8174,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/hopers.svg"
       },
-      "coingeckoId": "hopers-io",
       "price": {
         "poolId": "894",
         "denom": "uosmo"
@@ -8399,7 +8382,8 @@
           "symbol": "WFTM",
           "decimals": 18,
           "logoURIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/fantom/images/ftm.svg"
           }
         },
         {
@@ -8502,7 +8486,7 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qstars.svg"
       },
       "price": {
-        "poolId": "903",
+        "poolId": "1766",
         "denom": "ibc/987C17B11ABC2B20019178ACE62929FE9840202CE79498E29FE8E5CB02B7C0A4"
       },
       "categories": [
@@ -9238,7 +9222,7 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qregen.svg"
       },
       "price": {
-        "poolId": "948",
+        "poolId": "1767",
         "denom": "ibc/1DCC8A6CB5689018431323953344A9F6CC4D0BFB261E88C9F7777372C10CD076"
       },
       "categories": [
@@ -10438,7 +10422,7 @@
         {
           "name": "Secret Network IBC Transfer",
           "type": "external_interface",
-          "depositUrl": "https://dash.scrt.network/ibc"
+          "depositUrl": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=silk"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -10594,8 +10578,8 @@
       },
       "coingeckoId": "filecoin",
       "price": {
-        "poolId": "1562",
-        "denom": "ibc/FE2CD1E6828EC0FAB8AF39BAC45BC25B965BA67CCBC50C13A14BD610B0D1E2C4"
+        "poolId": "1006",
+        "denom": "uosmo"
       },
       "categories": [
         "dweb",
@@ -10730,13 +10714,18 @@
       },
       "coingeckoId": "shade-protocol",
       "price": {
-        "poolId": "1621",
-        "denom": "uosmo"
+        "poolId": "1170",
+        "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
       },
       "categories": [
         "defi"
       ],
       "transferMethods": [
+        {
+          "name": "Secret Network IBC Transfer",
+          "type": "external_interface",
+          "depositUrl": "https://dash.scrt.network/ibc?chain=osmosis&mode=deposit&token=shd"
+        },
         {
           "name": "Osmosis IBC Transfer",
           "type": "ibc",
@@ -11085,8 +11074,8 @@
       },
       "coingeckoId": "ibc-index",
       "price": {
-        "poolId": "1254",
-        "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B"
+        "poolId": "1031",
+        "denom": "uosmo"
       },
       "categories": [
         "defi",
@@ -11408,8 +11397,8 @@
       },
       "coingeckoId": "gitopia",
       "price": {
-        "poolId": "1158",
-        "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
+        "poolId": "1036",
+        "denom": "uosmo"
       },
       "categories": [
         "dweb"
@@ -11580,7 +11569,7 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/stibcx.svg"
       },
       "price": {
-        "poolId": "1039",
+        "poolId": "1107",
         "denom": "uosmo"
       },
       "categories": [
@@ -11606,8 +11595,8 @@
       },
       "coingeckoId": "nolus",
       "price": {
-        "poolId": "1041",
-        "denom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858"
+        "poolId": "1797",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
         "defi",
@@ -11894,10 +11883,10 @@
       ],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=PICASSO&to=OSMOSIS",
-          "withdrawUrl": "https://games.mantis.app/?from=OSMOSIS&to=PICASSO"
+          "depositUrl": "https://app.picasso.network/?from=PicassoKusama&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=PicassoKusama"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -11940,7 +11929,7 @@
         }
       ],
       "variantGroupKey": "PICA",
-      "name": "Composable",
+      "name": "Picasso",
       "verified": true,
       "unstable": false,
       "disabled": false,
@@ -11963,10 +11952,10 @@
       "categories": [],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=PICASSO&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=PICASSO"
+          "depositUrl": "https://app.picasso.network/?from=POLKADOT&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=POLKADOT"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -12032,7 +12021,8 @@
       "symbol": "DOT",
       "decimals": 10,
       "logoURIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg",
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png"
       },
       "coingeckoId": "polkadot",
       "price": {
@@ -12042,10 +12032,10 @@
       "categories": [],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=POLKADOT&to=OSMOSIS",
-          "withdrawUrl": "https://games.mantis.app/?from=OSMOSIS&to=POLKADOT"
+          "depositUrl": "https://app.picasso.network/?from=POLKADOT&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=POLKADOT"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -12073,6 +12063,7 @@
           "symbol": "DOT",
           "decimals": 10,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
           }
         },
@@ -12083,6 +12074,7 @@
           "symbol": "DOT",
           "decimals": 10,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
           }
         },
@@ -12093,6 +12085,7 @@
           "symbol": "DOT",
           "decimals": 10,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
           }
         },
@@ -12103,6 +12096,7 @@
           "symbol": "DOT",
           "decimals": 10,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/polkadot/images/dot.svg"
           }
         }
@@ -12734,6 +12728,12 @@
       "categories": [],
       "transferMethods": [
         {
+          "name": "Osmosis Wormhole Connect",
+          "type": "external_interface",
+          "depositUrl": "/wormhole?from=solana&to=osmosis&token=SOL",
+          "withdrawUrl": "/wormhole?from=osmosis&to=solana&token=SOL"
+        },
+        {
           "name": "Wormhole Portal Bridge",
           "type": "external_interface",
           "depositUrl": "https://portalbridge.com/cosmos/",
@@ -12807,13 +12807,19 @@
       },
       "coingeckoId": "bonk",
       "price": {
-        "poolId": "1129",
-        "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB"
+        "poolId": "1814",
+        "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/wiha"
       },
       "categories": [
         "meme"
       ],
       "transferMethods": [
+        {
+          "name": "Osmosis Wormhole Connect",
+          "type": "external_interface",
+          "depositUrl": "/wormhole?from=solana&to=osmosis&token=BONK",
+          "withdrawUrl": "/wormhole?from=osmosis&to=solana&token=BONK"
+        },
         {
           "name": "Wormhole Portal Bridge",
           "type": "external_interface",
@@ -12957,6 +12963,12 @@
       "categories": [],
       "transferMethods": [
         {
+          "name": "Osmosis Wormhole Connect",
+          "type": "external_interface",
+          "depositUrl": "/wormhole?from=sui&to=osmosis&token=SUI",
+          "withdrawUrl": "/wormhole?from=osmosis&to=sui&token=SUI"
+        },
+        {
           "name": "Wormhole Portal Bridge",
           "type": "external_interface",
           "depositUrl": "https://portalbridge.com/cosmos/",
@@ -13025,6 +13037,12 @@
       },
       "categories": [],
       "transferMethods": [
+        {
+          "name": "Osmosis Wormhole Connect",
+          "type": "external_interface",
+          "depositUrl": "/wormhole?from=aptos&to=osmosis&token=APT",
+          "withdrawUrl": "/wormhole?from=osmosis&to=aptos&token=APT"
+        },
         {
           "name": "Wormhole Portal Bridge",
           "type": "external_interface",
@@ -13408,7 +13426,7 @@
         }
       ],
       "variantGroupKey": "USDC",
-      "name": "USD Coin",
+      "name": "USDC",
       "verified": true,
       "unstable": false,
       "disabled": false,
@@ -14115,8 +14133,8 @@
       },
       "coingeckoId": "celestia",
       "price": {
-        "poolId": "1247",
-        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+        "poolId": "1248",
+        "denom": "uosmo"
       },
       "categories": [],
       "transferMethods": [
@@ -14169,8 +14187,8 @@
       },
       "coingeckoId": "dydx-chain",
       "price": {
-        "poolId": "1245",
-        "denom": "uosmo"
+        "poolId": "1246",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
         "defi"
@@ -15102,8 +15120,8 @@
       },
       "coingeckoId": "levana-protocol",
       "price": {
-        "poolId": "1325",
-        "denom": "uosmo"
+        "poolId": "1337",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
         "defi",
@@ -15238,7 +15256,7 @@
       },
       "coingeckoId": "milkyway-staked-tia",
       "price": {
-        "poolId": "1335",
+        "poolId": "1475",
         "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
       },
       "categories": [
@@ -15320,7 +15338,7 @@
       },
       "price": {
         "poolId": "1659",
-        "denom": "ibc/0EF15DF2F02480ADE0BB6E85D9EBB5DAEA2836D3860E9F97F9AADE4F57A31AA0"
+        "denom": "ibc/42A9553A7770F3D7B62F3A82AF04E7719B4FD6EAF31BE5645092AAC4A6C2201D"
       },
       "categories": [
         "gaming",
@@ -15431,8 +15449,8 @@
       },
       "coingeckoId": "islamic-coin",
       "price": {
-        "poolId": "1691",
-        "denom": "ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877"
+        "poolId": "1637",
+        "denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
       },
       "categories": [],
       "transferMethods": [
@@ -15609,7 +15627,6 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/pundix/images/purse-token-logo.svg"
       },
-      "coingeckoId": "pundi-x-purse",
       "price": {
         "poolId": "1695",
         "denom": "uosmo"
@@ -15899,7 +15916,7 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/baddog.png"
       },
       "price": {
-        "poolId": "1420",
+        "poolId": "1715",
         "denom": "ibc/B9E0A1A524E98BB407D3CED8720EFEFD186002F90C1B1B7964811DD0CCC12228"
       },
       "categories": [
@@ -16684,6 +16701,12 @@
       ],
       "transferMethods": [
         {
+          "name": "Osmosis Pro TFM IBC Transfer",
+          "type": "external_interface",
+          "depositUrl": "https://pro.osmosis.zone/ibc?chainFrom=injective-1&chainTo=osmosis-1&token0=peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2&token1=ibc%2F072E5B3D6F278B3E6A9C51D7EAD1A737148609512C5EBE8CBCB5663264A0DDB7",
+          "withdrawUrl": "https://pro.osmosis.zone/ibc?chainFrom=osmosis-1&chainTo=injective-1&token0=ibc%2F072E5B3D6F278B3E6A9C51D7EAD1A737148609512C5EBE8CBCB5663264A0DDB7&token1=peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2"
+        },
+        {
           "name": "Osmosis IBC Transfer",
           "type": "ibc",
           "counterparty": {
@@ -17016,6 +17039,11 @@
       ],
       "transferMethods": [
         {
+          "name": "Osmosis Pro TFM IBC Transfer",
+          "type": "external_interface",
+          "depositUrl": "https://pro.osmosis.zone/ibc?chainFrom=humans_1089-1&chainTo=osmosis-1&token0=aheart&token1=ibc%2F35CECC330D11DD00FACB555D07687631E0BC7D226260CC5F015F6D7980819533"
+        },
+        {
           "name": "Osmosis IBC Transfer",
           "type": "ibc",
           "counterparty": {
@@ -17125,8 +17153,8 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg"
       },
       "price": {
-        "poolId": "1684",
-        "denom": "uosmo"
+        "poolId": "1507",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [],
       "transferMethods": [
@@ -17178,6 +17206,7 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png"
       },
+      "coingeckoId": "chain4energy",
       "categories": [],
       "transferMethods": [
         {
@@ -17212,10 +17241,11 @@
       ],
       "variantGroupKey": "C4E",
       "name": "C4E",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
-      "preview": true
+      "preview": false,
+      "listingDate": "2024-03-06T12:52:00.000Z"
     },
     {
       "chainName": "terra2",
@@ -17665,6 +17695,10 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sail.png"
       },
       "coingeckoId": "sail-dao",
+      "price": {
+        "poolId": "1782",
+        "denom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB"
+      },
       "categories": [
         "sail_initiative"
       ],
@@ -17989,6 +18023,10 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.svg"
       },
       "coingeckoId": "consciousdao",
+      "price": {
+        "poolId": "1741",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+      },
       "categories": [],
       "transferMethods": [
         {
@@ -18124,9 +18162,10 @@
       "logoURIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LAB.png"
       },
+      "coingeckoId": "mad-scientists",
       "price": {
-        "poolId": "1655",
-        "denom": "uosmo"
+        "poolId": "1656",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
         "nft_protocol",
@@ -18158,15 +18197,16 @@
       "transferMethods": [],
       "counterparty": [],
       "name": "BackBone Labs Liquid Staked OSMO",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
-      "preview": true
+      "preview": false,
+      "listingDate": "2024-05-15T18:00:00.000Z"
     },
     {
-      "chainName": "pundix",
-      "sourceDenom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
-      "coinMinimalDenom": "ibc/2EB516F83C9FF44AB6826F269CA98A5622608C6C955E12112E58F23A324FEE07",
+      "chainName": "fxcore",
+      "sourceDenom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+      "coinMinimalDenom": "ibc/46D8D1A6E2A80ECCB7CA6663086A2E749C508B68DA56A077CD26E6F4F9691EEE",
       "symbol": "PUNDIX",
       "decimals": 18,
       "logoURIs": {
@@ -18178,28 +18218,33 @@
       ],
       "transferMethods": [
         {
+          "name": "Starscan",
+          "type": "external_interface",
+          "depositUrl": "https://starscan.io/fxbridge?from=fxcore&to=osmosis&token=PUNDIX"
+        },
+        {
           "name": "Osmosis IBC Transfer",
           "type": "ibc",
           "counterparty": {
-            "chainName": "pundix",
-            "chainId": "PUNDIX",
-            "sourceDenom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
+            "chainName": "fxcore",
+            "chainId": "fxcore",
+            "sourceDenom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
             "port": "transfer",
-            "channelId": "channel-1"
+            "channelId": "channel-19"
           },
           "chain": {
             "port": "transfer",
-            "channelId": "channel-12618",
-            "path": "transfer/channel-12618/transfer/channel-0/eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38"
+            "channelId": "channel-2716",
+            "path": "transfer/channel-2716/eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38"
           }
         }
       ],
       "counterparty": [
         {
-          "chainName": "pundix",
-          "sourceDenom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
+          "chainName": "fxcore",
+          "sourceDenom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
           "chainType": "cosmos",
-          "chainId": "PUNDIX",
+          "chainId": "fxcore",
           "symbol": "PUNDIX",
           "decimals": 18,
           "logoURIs": {
@@ -18208,10 +18253,11 @@
           }
         },
         {
-          "chainName": "fxcore",
-          "sourceDenom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
-          "chainType": "cosmos",
-          "chainId": "fxcore",
+          "chainName": "ethereum",
+          "sourceDenom": "0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
           "symbol": "PUNDIX",
           "decimals": 18,
           "logoURIs": {
@@ -18225,7 +18271,8 @@
       "verified": false,
       "unstable": false,
       "disabled": false,
-      "preview": true
+      "preview": false,
+      "listingDate": "2024-05-21T16:00:00.000Z"
     },
     {
       "chainName": "composable",
@@ -18244,10 +18291,10 @@
       "categories": [],
       "transferMethods": [
         {
-          "name": "Composable Trustless Zone",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://app.trustless.zone/?from=PICASSO&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=PICASSO"
+          "depositUrl": "https://app.picasso.network/?from=PicassoKusama&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=PicassoKusama"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -18318,8 +18365,8 @@
       },
       "coingeckoId": "wormhole",
       "price": {
-        "poolId": "1696",
-        "denom": "uosmo"
+        "poolId": "1651",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
         "bridges"
@@ -18328,8 +18375,8 @@
         {
           "name": "Osmosis Wormhole Portal",
           "type": "external_interface",
-          "depositUrl": "/wormhole",
-          "withdrawUrl": "/wormhole"
+          "depositUrl": "/wormhole?from=solana&to=osmosis&token=W",
+          "withdrawUrl": "/wormhole?from=osmosis&to=solana&token=W"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -18382,7 +18429,7 @@
     {
       "chainName": "dhealth",
       "sourceDenom": "udhp",
-      "coinMinimalDenom": "ibc/415797C6CE8DC6E9B4C894EE802B4CF47F74932D282C351A1D9DCB21D94B7162",
+      "coinMinimalDenom": "ibc/FD506CCA1FC574F2A8175FB574C981E9F6351E194AA48AC219BD67FF934E2F33",
       "symbol": "DHP",
       "decimals": 6,
       "logoURIs": {
@@ -18390,7 +18437,13 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.svg"
       },
       "coingeckoId": "dhealth",
-      "categories": [],
+      "price": {
+        "poolId": "1755",
+        "denom": "uosmo"
+      },
+      "categories": [
+        "dweb"
+      ],
       "transferMethods": [
         {
           "name": "Osmosis IBC Transfer",
@@ -18400,12 +18453,12 @@
             "chainId": "dhealth",
             "sourceDenom": "udhp",
             "port": "transfer",
-            "channelId": "channel-2"
+            "channelId": "channel-4"
           },
           "chain": {
             "port": "transfer",
-            "channelId": "channel-73360",
-            "path": "transfer/channel-73360/udhp"
+            "channelId": "channel-75030",
+            "path": "transfer/channel-75030/udhp"
           }
         }
       ],
@@ -18425,10 +18478,11 @@
       ],
       "variantGroupKey": "DHP",
       "name": "dHealth",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
-      "preview": true
+      "preview": false,
+      "listingDate": "2024-05-16T17:00:00.000Z"
     },
     {
       "chainName": "furya",
@@ -18494,8 +18548,8 @@
       },
       "coingeckoId": "saga-2",
       "price": {
-        "poolId": "1670",
-        "denom": "uosmo"
+        "poolId": "1671",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
       },
       "categories": [
         "gaming"
@@ -19112,13 +19166,17 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eth.pica.svg"
       },
       "coingeckoId": "ethereum",
+      "price": {
+        "poolId": "1739",
+        "denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5"
+      },
       "categories": [],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19146,6 +19204,7 @@
           "symbol": "ETH",
           "decimals": 18,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eth-white.svg"
           }
         },
@@ -19165,7 +19224,7 @@
       ],
       "variantGroupKey": "ETH",
       "name": "Ethereum",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
       "preview": false,
@@ -19184,10 +19243,10 @@
       "categories": [],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19256,10 +19315,10 @@
       "categories": [],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19287,6 +19346,7 @@
           "symbol": "FXS",
           "decimals": 18,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/fxs.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/fxs.svg"
           }
         },
@@ -19306,7 +19366,7 @@
       ],
       "variantGroupKey": "FXS",
       "name": "Frax Shares",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
       "preview": false,
@@ -19325,10 +19385,10 @@
       "categories": [],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19393,10 +19453,10 @@
       "categories": [],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19441,7 +19501,7 @@
         }
       ],
       "variantGroupKey": "USDT",
-      "name": "Tether",
+      "name": "Tether (Ethereum)",
       "verified": false,
       "unstable": false,
       "disabled": false,
@@ -19458,15 +19518,19 @@
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/sfrax.pica.svg"
       },
       "coingeckoId": "staked-frax",
+      "price": {
+        "poolId": "1748",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+      },
       "categories": [
         "liquid_staking"
       ],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19494,6 +19558,7 @@
           "symbol": "sFRAX",
           "decimals": 18,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrax.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/sfrax.svg"
           }
         },
@@ -19513,7 +19578,7 @@
       ],
       "variantGroupKey": "sFRAX",
       "name": "Staked FRAX",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
       "preview": false,
@@ -19534,10 +19599,10 @@
       ],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19565,6 +19630,7 @@
           "symbol": "frxETH",
           "decimals": 18,
           "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/frxeth.png",
             "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/frxeth.svg"
           }
         },
@@ -19609,10 +19675,10 @@
       ],
       "transferMethods": [
         {
-          "name": "Mantis App",
+          "name": "Picasso App",
           "type": "external_interface",
-          "depositUrl": "https://games.mantis.app/?from=ETHEREUM&to=OSMOSIS",
-          "withdrawUrl": "https://app.trustless.zone/?from=OSMOSIS&to=ETHEREUM"
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19671,7 +19737,7 @@
       ],
       "variantGroupKey": "frxETH",
       "name": "Frax Staked Ether",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
       "preview": false,
@@ -19742,8 +19808,8 @@
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/ft99091610CCC66F4277C66D14AF2BC4C5EE52E27A.png"
       },
       "price": {
-        "poolId": "1711",
-        "denom": "uosmo"
+        "poolId": "758",
+        "denom": "ibc/4E5444C35610CC76FC94E7F7886B93121175C28262DDFDDE6F84E82BF2425452"
       },
       "categories": [
         "social"
@@ -19806,7 +19872,7 @@
       "counterparty": [
         {
           "chainName": "0l",
-          "sourceDenom": "uLibra",
+          "sourceDenom": "microlibra",
           "chainType": "non-cosmos",
           "symbol": "LIBRA",
           "decimals": 6,
@@ -19818,7 +19884,7 @@
       ],
       "variantGroupKey": "LIBRA",
       "name": "Wrapped Libra Coin (LibraBridge)",
-      "verified": false,
+      "verified": true,
       "unstable": false,
       "disabled": false,
       "preview": false,
@@ -19826,20 +19892,20 @@
     },
     {
       "chainName": "dymension",
-      "sourceDenom": "anim",
-      "coinMinimalDenom": "ibc/4AAC4F12E50C3078782F7321B91F94D83AA5983235ABC800BC3B551026003E2E",
+      "sourceDenom": "ibc/FB53D1684F155CBB86D9CE917807E42B59209EBE3AD3A92E15EF66586C073942",
+      "coinMinimalDenom": "ibc/279D69A6EF8E37456C8D2DC7A7C1C50F7A566EC4758F6DE17472A9FDE36C4426",
       "symbol": "NIM",
       "decimals": 18,
       "logoURIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/nim.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/nim.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg"
       },
       "categories": [],
       "transferMethods": [
         {
           "name": "Dymension Portal",
           "type": "external_interface",
-          "depositUrl": "https://portal.dymension.xyz/ibc?sourceId=dymension_1100-1&destinationId=osmosis-1"
+          "depositUrl": "https://portal.dymension.xyz/ibc/transfer?sourceId=dymension_1100-1&destinationId=osmosis-1"
         },
         {
           "name": "Osmosis IBC Transfer",
@@ -19847,38 +19913,1607 @@
           "counterparty": {
             "chainName": "dymension",
             "chainId": "dymension_1100-1",
-            "sourceDenom": "anim",
+            "sourceDenom": "ibc/FB53D1684F155CBB86D9CE917807E42B59209EBE3AD3A92E15EF66586C073942",
             "port": "transfer",
             "channelId": "channel-2"
           },
           "chain": {
             "port": "transfer",
             "channelId": "channel-19774",
-            "path": "transfer/channel-19774/anim"
+            "path": "transfer/channel-19774/transfer/channel-49/anim"
           }
         }
       ],
       "counterparty": [
         {
           "chainName": "dymension",
-          "sourceDenom": "anim",
+          "sourceDenom": "ibc/FB53D1684F155CBB86D9CE917807E42B59209EBE3AD3A92E15EF66586C073942",
           "chainType": "cosmos",
           "chainId": "dymension_1100-1",
           "symbol": "NIM",
           "decimals": 18,
           "logoURIs": {
-            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/nim.png",
-            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/nim.svg"
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg"
+          }
+        },
+        {
+          "chainName": "nim",
+          "sourceDenom": "anim",
+          "chainType": "cosmos",
+          "chainId": "nim_1122-1",
+          "symbol": "NIM",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.svg"
           }
         }
       ],
       "variantGroupKey": "NIM",
-      "name": "NIM Network",
+      "name": "Nim Network",
+      "verified": false,
+      "unstable": true,
+      "disabled": true,
+      "preview": false,
+      "listingDate": "2024-05-01T18:25:00.000Z"
+    },
+    {
+      "chainName": "seda",
+      "sourceDenom": "aseda",
+      "coinMinimalDenom": "ibc/956AEF1DA92F70584266E87978C3F30A43B91EE6ABC62F03D097E79F6B99C4D8",
+      "symbol": "SEDA",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg"
+      },
+      "coingeckoId": "seda-2",
+      "price": {
+        "poolId": "1731",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "seda",
+            "chainId": "seda-1",
+            "sourceDenom": "aseda",
+            "port": "transfer",
+            "channelId": "channel-0"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-75016",
+            "path": "transfer/channel-75016/aseda"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "seda",
+          "sourceDenom": "aseda",
+          "chainType": "cosmos",
+          "chainId": "seda-1",
+          "symbol": "SEDA",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "SEDA",
+      "name": "SEDA",
+      "verified": true,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-03T13:00:00.000Z"
+    },
+    {
+      "chainName": "osmosis",
+      "sourceDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/cac",
+      "coinMinimalDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/cac",
+      "symbol": "CAC",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CAC.png"
+      },
+      "price": {
+        "poolId": "1736",
+        "denom": "uosmo"
+      },
+      "categories": [
+        "meme"
+      ],
+      "transferMethods": [],
+      "counterparty": [],
+      "name": "Cosmos Airdrop Chat",
+      "verified": true,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-06T12:00:00.000Z"
+    },
+    {
+      "chainName": "neutron",
+      "sourceDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD",
+      "coinMinimalDenom": "ibc/38ADC6FFDDDB7D70B72AD0322CEA8844CB18FAA0A23400DBA8A99D43E18B3748",
+      "symbol": "WEIRD",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WEIRD.png"
+      },
+      "price": {
+        "poolId": "1776",
+        "denom": "ibc/D3B574938631B0A1BA704879020C696E514CFADAA7643CDE4BD5EB010BDE327B"
+      },
+      "categories": [
+        "meme"
+      ],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "neutron",
+            "chainId": "neutron-1",
+            "sourceDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD",
+            "port": "transfer",
+            "channelId": "channel-10"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-874",
+            "path": "transfer/channel-874/factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "neutron",
+          "sourceDenom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD",
+          "chainType": "cosmos",
+          "chainId": "neutron-1",
+          "symbol": "WEIRD",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/WEIRD.png"
+          }
+        }
+      ],
+      "variantGroupKey": "WEIRD",
+      "name": "WEIRD",
       "verified": false,
       "unstable": false,
       "disabled": false,
       "preview": false,
-      "listingDate": "2024-05-01T18:25:00.000Z"
+      "listingDate": "2024-05-08T18:00:00.000Z"
+    },
+    {
+      "chainName": "osmosis",
+      "sourceDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/pbb",
+      "coinMinimalDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/pbb",
+      "symbol": "PBB",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/PBB.png"
+      },
+      "price": {
+        "poolId": "1750",
+        "denom": "uosmo"
+      },
+      "categories": [
+        "meme"
+      ],
+      "transferMethods": [],
+      "counterparty": [],
+      "name": "Power Bottom",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-13T18:41:03.000Z"
+    },
+    {
+      "chainName": "osmosis",
+      "sourceDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bwh",
+      "coinMinimalDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/bwh",
+      "symbol": "BWH",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/BWH.png"
+      },
+      "price": {
+        "poolId": "1729",
+        "denom": "uosmo"
+      },
+      "categories": [
+        "meme"
+      ],
+      "transferMethods": [],
+      "counterparty": [],
+      "name": "BeerWifHat",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-13T18:59:11.000Z"
+    },
+    {
+      "chainName": "juno",
+      "sourceDenom": "cw20:juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg",
+      "coinMinimalDenom": "ibc/0D62E47FDEBBC199D4E1853C0708F0F9337AC62D95B719585C9700E466060995",
+      "symbol": "AFA",
+      "decimals": 0,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/afa.png"
+      },
+      "price": {
+        "poolId": "1701",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "juno",
+            "chainId": "juno-1",
+            "sourceDenom": "cw20:juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg",
+            "port": "wasm.juno1v4887y83d6g28puzvt8cl0f3cdhd3y6y9mpysnsp3k8krdm7l6jqgm0rkn",
+            "channelId": "channel-47"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-169",
+            "path": "transfer/channel-169/cw20:juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "juno",
+          "sourceDenom": "cw20:juno1spjes0smg5yp40dl7gqyw0h8rn03tnmve06dd2m5acwgh6tlx86swha3xg",
+          "chainType": "cosmos",
+          "chainId": "juno-1",
+          "symbol": "AFA",
+          "decimals": 0,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/afa.png"
+          }
+        }
+      ],
+      "variantGroupKey": "AFA",
+      "name": "Airdrop For All",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-13T19:00:00.000Z"
+    },
+    {
+      "chainName": "osmosis",
+      "sourceDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
+      "coinMinimalDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
+      "symbol": "SHITMOS",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/shitmos.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/shitmos.svg"
+      },
+      "price": {
+        "poolId": "1770",
+        "denom": "uosmo"
+      },
+      "categories": [
+        "meme"
+      ],
+      "transferMethods": [],
+      "counterparty": [],
+      "name": "Shitmos",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-14T15:45:04.000Z"
+    },
+    {
+      "chainName": "quicksilver",
+      "sourceDenom": "uqjuno",
+      "coinMinimalDenom": "ibc/B4E18E61E1505C2F371B621E49B09E983F6A138F251A7B5286A6BDF739FD0D54",
+      "symbol": "qJUNO",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qjuno.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qjuno.svg"
+      },
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "chainId": "quicksilver-2",
+            "sourceDenom": "uqjuno",
+            "port": "transfer",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/uqjuno"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "quicksilver",
+          "sourceDenom": "uqjuno",
+          "chainType": "cosmos",
+          "chainId": "quicksilver-2",
+          "symbol": "qJUNO",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qjuno.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qjuno.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "qJUNO",
+      "name": "Quicksilver Liquid Staked JUNO",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "sortWith": {
+        "chainName": "quicksilver",
+        "sourceDenom": "uqck"
+      },
+      "listingDate": "2024-05-14T18:30:00.000Z"
+    },
+    {
+      "chainName": "quicksilver",
+      "sourceDenom": "uqsaga",
+      "coinMinimalDenom": "ibc/F2D400F2728E9DA06EAE2AFAB289931A69EDDA5A661578C66A3177EDFE3C0D13",
+      "symbol": "qSAGA",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qsaga.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qsaga.svg"
+      },
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "chainId": "quicksilver-2",
+            "sourceDenom": "uqsaga",
+            "port": "transfer",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/uqsaga"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "quicksilver",
+          "sourceDenom": "uqsaga",
+          "chainType": "cosmos",
+          "chainId": "quicksilver-2",
+          "symbol": "qSAGA",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qsaga.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qsaga.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "qSAGA",
+      "name": "Quicksilver Liquid Staked SAGA",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "sortWith": {
+        "chainName": "quicksilver",
+        "sourceDenom": "uqck"
+      },
+      "listingDate": "2024-05-14T18:30:00.000Z"
+    },
+    {
+      "chainName": "quicksilver",
+      "sourceDenom": "aqdydx",
+      "coinMinimalDenom": "ibc/273C593E51ACE56F1F2BDB3E03A5CB81BB208B894BCAA642676A32C3454E8C27",
+      "symbol": "qDYDX",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qdydx.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qdydx.svg"
+      },
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "chainId": "quicksilver-2",
+            "sourceDenom": "aqdydx",
+            "port": "transfer",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/aqdydx"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "quicksilver",
+          "sourceDenom": "aqdydx",
+          "chainType": "cosmos",
+          "chainId": "quicksilver-2",
+          "symbol": "qDYDX",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qdydx.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qdydx.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "qDYDX",
+      "name": "Quicksilver Liquid Staked DYDX",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "sortWith": {
+        "chainName": "quicksilver",
+        "sourceDenom": "uqck"
+      },
+      "listingDate": "2024-05-14T18:30:00.000Z"
+    },
+    {
+      "chainName": "quicksilver",
+      "sourceDenom": "uqbld",
+      "coinMinimalDenom": "ibc/C1C106D915C8E8C59E5DC69BF30FEF64729A6F788060B184C86A315DBB762EF7",
+      "symbol": "qBLD",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qbld.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qbld.svg"
+      },
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "quicksilver",
+            "chainId": "quicksilver-2",
+            "sourceDenom": "uqbld",
+            "port": "transfer",
+            "channelId": "channel-2"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-522",
+            "path": "transfer/channel-522/uqbld"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "quicksilver",
+          "sourceDenom": "uqbld",
+          "chainType": "cosmos",
+          "chainId": "quicksilver-2",
+          "symbol": "qBLD",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qbld.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qbld.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "qBLD",
+      "name": "Quicksilver Liquid Staked BLD",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "sortWith": {
+        "chainName": "quicksilver",
+        "sourceDenom": "uqck"
+      },
+      "listingDate": "2024-05-14T18:30:00.000Z"
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/6367C5AF2E2477FB13DD0C8CB0027FEDDF5AE947EE84C69FB75003E604E29D05",
+      "coinMinimalDenom": "ibc/5B5BFCC8A9F0D554A4245117F7798E85BE25B6C73DBFA2D6F369BD9DD6CACC6D",
+      "symbol": "PEPE.pica",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pepe.pica.png"
+      },
+      "coingeckoId": "pepe",
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/6367C5AF2E2477FB13DD0C8CB0027FEDDF5AE947EE84C69FB75003E604E29D05",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-52/0x6982508145454ce325ddbe47a25d4ec3d2311933"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/6367C5AF2E2477FB13DD0C8CB0027FEDDF5AE947EE84C69FB75003E604E29D05",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "PEPE",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+          "symbol": "PEPE",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "PEPE",
+      "name": "Pepe",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/52C8C6197989684F891076F228F20CD1659AB6E1776E3B85E65CBBEC67DA5DED",
+      "coinMinimalDenom": "ibc/080CE38C1E49595F2199E88BE7281F93FAEEF3FE354EECED0640625E8311C9CF",
+      "symbol": "CRV.pica",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/crv.pica.png"
+      },
+      "coingeckoId": "curve-dao-token",
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/52C8C6197989684F891076F228F20CD1659AB6E1776E3B85E65CBBEC67DA5DED",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-52/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/52C8C6197989684F891076F228F20CD1659AB6E1776E3B85E65CBBEC67DA5DED",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "CRV",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/crv.png"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0xd533a949740bb3306d119cc777fa900ba034cd52",
+          "symbol": "CRV",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/crv.png"
+          }
+        }
+      ],
+      "variantGroupKey": "CRV",
+      "name": "Curve DAO",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/0247E0E2C174135AADF4EA172D97FF5C15A64689A403E83603EAE4F0616DD365",
+      "coinMinimalDenom": "ibc/39AAE0F5F918B731BEF1E02E9BAED33C242805F668B0A941AC509FB569FE51CB",
+      "symbol": "ezETH.pica",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ezeth.pica.png"
+      },
+      "coingeckoId": "renzo-restaked-eth",
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/0247E0E2C174135AADF4EA172D97FF5C15A64689A403E83603EAE4F0616DD365",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-52/0xbf5495efe5db9ce00f80364c8b423567e58d2110"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/0247E0E2C174135AADF4EA172D97FF5C15A64689A403E83603EAE4F0616DD365",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "ezETH",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ezeth.png"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
+          "symbol": "ezETH",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ezeth.png"
+          }
+        }
+      ],
+      "variantGroupKey": "ezETH",
+      "name": "Renzo Restaked ETH",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/FFD9EB71B4480ED4D73F7370A2AEBDB48447A0AAE27265F8060A957F0FF71983",
+      "coinMinimalDenom": "ibc/BFFE212A23384C4EB055CF6F95A1F5EC1BE0F9BD286FAA66C3748F0444E67D63",
+      "symbol": "USDe.pica",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usde.pica.png"
+      },
+      "coingeckoId": "ethena-usde",
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/FFD9EB71B4480ED4D73F7370A2AEBDB48447A0AAE27265F8060A957F0FF71983",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-52/0x4c9edd5852cd905f086c759e8383e09bff1e68b3"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/FFD9EB71B4480ED4D73F7370A2AEBDB48447A0AAE27265F8060A957F0FF71983",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "USDe",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usde.png"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
+          "symbol": "USDe",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usde.png"
+          }
+        }
+      ],
+      "variantGroupKey": "USDe",
+      "name": "Ethena USDe",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/B089810D5A6316AD5E9C7808733DC4AB11C7BA3033221D28711FC7206BACB929",
+      "coinMinimalDenom": "ibc/257FF64F160106F6EE43CEE7C761DA64C1346221895373CC810FFA1BFAC5A7CD",
+      "symbol": "ENA.pica",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/ena.pica.png"
+      },
+      "coingeckoId": "ethena",
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/B089810D5A6316AD5E9C7808733DC4AB11C7BA3033221D28711FC7206BACB929",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-52/0x57e114b691db790c35207b2e685d4a43181e6061"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/B089810D5A6316AD5E9C7808733DC4AB11C7BA3033221D28711FC7206BACB929",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "ENA",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ena.png"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0x57e114b691db790c35207b2e685d4a43181e6061",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0x57e114b691db790c35207b2e685d4a43181e6061",
+          "symbol": "ENA",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/ena.png"
+          }
+        }
+      ],
+      "variantGroupKey": "ENA",
+      "name": "Ethena",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/34C23BA6BAA2EAE0199D85AD1E2E214F76B0BFAD42BF75542D15F71264EEB05B",
+      "coinMinimalDenom": "ibc/8D0FFEA4EDB04E3C1738C9599B66AE49683E0540FC4C1214AC84534C200D818B",
+      "symbol": "eETH.pica",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/eeth.pica.png"
+      },
+      "coingeckoId": "ether-fi-staked-eth",
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/34C23BA6BAA2EAE0199D85AD1E2E214F76B0BFAD42BF75542D15F71264EEB05B",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-52/0x35fa164735182de50811e8e2e824cfb9b6118ac2"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/34C23BA6BAA2EAE0199D85AD1E2E214F76B0BFAD42BF75542D15F71264EEB05B",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "eETH",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eeth.png"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
+          "symbol": "eETH",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/eeth.png"
+          }
+        }
+      ],
+      "variantGroupKey": "eETH",
+      "name": "ether.fi Staked ETH",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/36EF1EA47A09689C81D848B08E5240FA9FF13B17DB7DCF48B77D4D0D9B152821",
+      "coinMinimalDenom": "ibc/D09BB89B2187EF13EF006B44510749B0F02FD0B34F8BB55C70D812A1FF6148C7",
+      "symbol": "pxETH.pica",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/pxeth.pica.png"
+      },
+      "coingeckoId": "dinero-staked-eth",
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/36EF1EA47A09689C81D848B08E5240FA9FF13B17DB7DCF48B77D4D0D9B152821",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-52/0x04c154b66cb340f3ae24111cc767e0184ed00cc6"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/36EF1EA47A09689C81D848B08E5240FA9FF13B17DB7DCF48B77D4D0D9B152821",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "pxETH",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pxeth.png"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0x04c154b66cb340f3ae24111cc767e0184ed00cc6",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0x04c154b66cb340f3ae24111cc767e0184ed00cc6",
+          "symbol": "pxETH",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pxeth.png"
+          }
+        }
+      ],
+      "variantGroupKey": "pxETH",
+      "name": "Dinero Staked ETH",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/C9D79BE8E3E75CA2DFDC722C77D7B179C39A4802D59019C790A825FDE34B724A",
+      "coinMinimalDenom": "ibc/63551E7BB24008F0AFC1CB051A423A5104F781F035F8B1A191264B7086A0A0F6",
+      "symbol": "crvUSD.pica",
+      "decimals": 18,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/crvUSD.pica.png"
+      },
+      "coingeckoId": "crvusd",
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=ETHEREUM&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=ETHEREUM"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/C9D79BE8E3E75CA2DFDC722C77D7B179C39A4802D59019C790A825FDE34B724A",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-52/0xf939e0a03fb07f59a73314e73794be0e57ac1b4e"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/C9D79BE8E3E75CA2DFDC722C77D7B179C39A4802D59019C790A825FDE34B724A",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "crvUSD",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/crvusd.png"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+          "symbol": "crvUSD",
+          "decimals": 18,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/crvusd.png"
+          }
+        }
+      ],
+      "variantGroupKey": "crvUSD",
+      "name": "crvUSD",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "osmosis",
+      "sourceDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/wiha",
+      "coinMinimalDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/wiha",
+      "symbol": "WIHA",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/WIHA.png"
+      },
+      "price": {
+        "poolId": "1779",
+        "denom": "uosmo"
+      },
+      "categories": [
+        "meme"
+      ],
+      "transferMethods": [],
+      "counterparty": [],
+      "name": "WiliHall",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-16T21:03:04.000Z"
+    },
+    {
+      "chainName": "osmosis",
+      "sourceDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/crazyhorse",
+      "coinMinimalDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/crazyhorse",
+      "symbol": "CRAZYHORSE",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/CrazyHorse.png"
+      },
+      "price": {
+        "poolId": "1772",
+        "denom": "uosmo"
+      },
+      "categories": [
+        "meme"
+      ],
+      "transferMethods": [],
+      "counterparty": [],
+      "name": "HorseShoeBar",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-14T22:32:04.000Z"
+    },
+    {
+      "chainName": "osmosis",
+      "sourceDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/coca",
+      "coinMinimalDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/coca",
+      "symbol": "COCA",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/COCA.png"
+      },
+      "price": {
+        "poolId": "1794",
+        "denom": "uosmo"
+      },
+      "categories": [
+        "meme"
+      ],
+      "transferMethods": [],
+      "counterparty": [],
+      "name": "CosmusCartol",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-05-21T11:07:05.000Z"
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/D105950618E47CA2AEC314282BC401625025F80A4F812808DEEBB1941C685575",
+      "coinMinimalDenom": "ibc/0233A3F2541FD43DBCA569B27AF886E97F5C03FC0305E4A8A3FAC6AC26249C7A",
+      "symbol": "solana.USDT.pica",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/solana.usdt.pica.png"
+      },
+      "coingeckoId": "tether",
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/D105950618E47CA2AEC314282BC401625025F80A4F812808DEEBB1941C685575",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-71/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/D105950618E47CA2AEC314282BC401625025F80A4F812808DEEBB1941C685575",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "USDT",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png"
+          }
+        },
+        {
+          "chainName": "solana",
+          "sourceDenom": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "chainType": "non-cosmos",
+          "symbol": "USDT",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.png"
+          }
+        },
+        {
+          "chainName": "ethereum",
+          "sourceDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "chainType": "evm",
+          "chainId": 1,
+          "address": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "symbol": "USDT",
+          "decimals": 6,
+          "logoURIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "USDT",
+      "name": "Tether",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/BADB5950C4A81AC201696EBCB33CD295137FA86F0AA620CDDE946D3700E0208C",
+      "coinMinimalDenom": "ibc/B83F9E20B4A07FA8846880000BD9D8985D89567A090F5E9390C64E81C39B4607",
+      "symbol": "edgeSOL.pica",
+      "decimals": 9,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/edgesol.pica.png"
+      },
+      "coingeckoId": "edgevana-staked-sol",
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/BADB5950C4A81AC201696EBCB33CD295137FA86F0AA620CDDE946D3700E0208C",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-71/edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/BADB5950C4A81AC201696EBCB33CD295137FA86F0AA620CDDE946D3700E0208C",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "edgeSOL",
+          "decimals": 9,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/edgesol.png"
+          }
+        },
+        {
+          "chainName": "solana",
+          "sourceDenom": "edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
+          "chainType": "non-cosmos",
+          "symbol": "edgeSOL",
+          "decimals": 9,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/edgesol.png"
+          }
+        }
+      ],
+      "variantGroupKey": "edgeSOL",
+      "name": "Edgevana Staked SOL",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/55F5B582483FEFA5422794292B079B4D49A5BAB9881E7C801F9F271F1D234F1D",
+      "coinMinimalDenom": "ibc/F618D130A2B8203D169811658BD0361F18DC2453085965FA0E5AEB8018DD54EE",
+      "symbol": "LST.pica",
+      "decimals": 9,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/lst.pica.png"
+      },
+      "coingeckoId": "liquid-staking-token",
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/55F5B582483FEFA5422794292B079B4D49A5BAB9881E7C801F9F271F1D234F1D",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-71/LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/55F5B582483FEFA5422794292B079B4D49A5BAB9881E7C801F9F271F1D234F1D",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "LST",
+          "decimals": 9,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/lst.png"
+          }
+        },
+        {
+          "chainName": "solana",
+          "sourceDenom": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
+          "chainType": "non-cosmos",
+          "symbol": "LST",
+          "decimals": 9,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/lst.png"
+          }
+        }
+      ],
+      "variantGroupKey": "LST",
+      "name": "Liquid Staking Token",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/91A2FE07F8BDFC0552B1C9972FCCBF2CFD067DDE5F496D81E5132CE57762B0F2",
+      "coinMinimalDenom": "ibc/9A83BDF4C8C5FFDDE735533BC8CD4363714A6474AED1C2C492FB003BB77C7982",
+      "symbol": "jitoSOL.pica",
+      "decimals": 9,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/jitosol.pica.png"
+      },
+      "coingeckoId": "jito-staked-sol",
+      "categories": [
+        "liquid_staking"
+      ],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/91A2FE07F8BDFC0552B1C9972FCCBF2CFD067DDE5F496D81E5132CE57762B0F2",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-71/J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/91A2FE07F8BDFC0552B1C9972FCCBF2CFD067DDE5F496D81E5132CE57762B0F2",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "jitoSOL",
+          "decimals": 9,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jitosol.png"
+          }
+        },
+        {
+          "chainName": "solana",
+          "sourceDenom": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+          "chainType": "non-cosmos",
+          "symbol": "jitoSOL",
+          "decimals": 9,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/jitosol.png"
+          }
+        }
+      ],
+      "variantGroupKey": "jitoSOL",
+      "name": "Jito Staked SOL",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/2CC39C8141F257EBBA250F65B9D0F31DC8D153C225E51EC192DE6E3F65D43F0C",
+      "coinMinimalDenom": "ibc/0F9E9277B61A78CB31014D541ACA5BF6AB06DFC4524C4C836490B131DAAECD78",
+      "symbol": "wSOL.pica",
+      "decimals": 9,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/wsol.pica.png"
+      },
+      "coingeckoId": "wrapped-solana",
+      "price": {
+        "poolId": "1811",
+        "denom": "ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/2CC39C8141F257EBBA250F65B9D0F31DC8D153C225E51EC192DE6E3F65D43F0C",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-71/So11111111111111111111111111111111111111112"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/2CC39C8141F257EBBA250F65B9D0F31DC8D153C225E51EC192DE6E3F65D43F0C",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "wSOL",
+          "decimals": 9,
+          "logoURIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+          }
+        },
+        {
+          "chainName": "solana",
+          "sourceDenom": "So11111111111111111111111111111111111111112",
+          "chainType": "non-cosmos",
+          "symbol": "WSOL",
+          "decimals": 9,
+          "logoURIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+          }
+        },
+        {
+          "chainName": "solana",
+          "sourceDenom": "Lamport",
+          "chainType": "non-cosmos",
+          "symbol": "SOL",
+          "decimals": 9,
+          "logoURIs": {
+            "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+          }
+        }
+      ],
+      "variantGroupKey": "SOL",
+      "name": "Wrapped Solana",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true
+    },
+    {
+      "chainName": "osmosis",
+      "sourceDenom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+      "coinMinimalDenom": "factory/osmo1em6xs47hd82806f5cxgyufguxrrc7l0aqx7nzzptjuqgswczk8csavdxek/alloyed/allUSDT",
+      "symbol": "allUSDT",
+      "decimals": 6,
+      "logoURIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
+      },
+      "categories": [
+        "stablecoin"
+      ],
+      "pegMechanism": "collateralized",
+      "transferMethods": [],
+      "counterparty": [],
+      "variantGroupKey": "allUSDT",
+      "name": "Alloyed USDT",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": true,
+      "listingDate": "2024-05-29T10:27:00.000Z"
+    },
+    {
+      "chainName": "composable",
+      "sourceDenom": "ibc/9D5DA3720001F91DD76B8F609A93F96688EC8185B54BF9A1A1450EB34FF2D912",
+      "coinMinimalDenom": "ibc/A8C568580D613F16F7E9075EA9FAD69FEBE0CC1F4AF46C60255FEC4459C166F1",
+      "symbol": "WHINE",
+      "decimals": 6,
+      "logoURIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/whine.png"
+      },
+      "categories": [],
+      "transferMethods": [
+        {
+          "name": "Picasso App",
+          "type": "external_interface",
+          "depositUrl": "https://app.picasso.network/?from=SOLANA&to=OSMOSIS",
+          "withdrawUrl": "https://app.picasso.network/?from=OSMOSIS&to=SOLANA"
+        },
+        {
+          "name": "Osmosis IBC Transfer",
+          "type": "ibc",
+          "counterparty": {
+            "chainName": "composable",
+            "chainId": "centauri-1",
+            "sourceDenom": "ibc/9D5DA3720001F91DD76B8F609A93F96688EC8185B54BF9A1A1450EB34FF2D912",
+            "port": "transfer",
+            "channelId": "channel-3"
+          },
+          "chain": {
+            "port": "transfer",
+            "channelId": "channel-1279",
+            "path": "transfer/channel-1279/transfer/channel-71/ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump"
+          }
+        }
+      ],
+      "counterparty": [
+        {
+          "chainName": "composable",
+          "sourceDenom": "ibc/9D5DA3720001F91DD76B8F609A93F96688EC8185B54BF9A1A1450EB34FF2D912",
+          "chainType": "cosmos",
+          "chainId": "centauri-1",
+          "symbol": "WHINE",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/whine.png"
+          }
+        },
+        {
+          "chainName": "solana",
+          "sourceDenom": "ATeTQcUkWGs7AZ15mCiFUWCW9EUL7KpDZEHCN1Y8pump",
+          "chainType": "non-cosmos",
+          "symbol": "WHINE",
+          "decimals": 6,
+          "logoURIs": {
+            "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/whine.png"
+          }
+        }
+      ],
+      "variantGroupKey": "WHINE",
+      "name": "WHINEcoin",
+      "verified": false,
+      "unstable": false,
+      "disabled": false,
+      "preview": false,
+      "listingDate": "2024-06-05T03:00:00.000Z"
     }
   ]
 }

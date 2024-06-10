@@ -1,0 +1,7 @@
+{
+  "localization": "pt-br",
+  "name": "Tether",
+  "symbol": "USDT.pica",
+  "description": "Tether, emitido nativamente em Solana.",
+  "coingeckoID": "tether"
+}

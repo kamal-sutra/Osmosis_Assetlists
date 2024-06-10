@@ -1,0 +1,7 @@
+{
+  "localization": "tr",
+  "name": "USDC (Gravity Bridge)",
+  "symbol": "USDC.grv",
+  "description": "Yerçekimi Köprüsü USDC",
+  "coingeckoID": "gravity-bridge-usdc"
+}

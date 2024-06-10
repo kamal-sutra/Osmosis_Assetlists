@@ -1,0 +1,7 @@
+{
+  "localization": "zh-hk",
+  "name": "Tether",
+  "symbol": "USDT.pica",
+  "description": "Tether，在 Solana 上本地發行。",
+  "coingeckoID": "tether"
+}
